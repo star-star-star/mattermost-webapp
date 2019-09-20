@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // Allow overriding the path used by webpack to dynamically resolve assets. This is driven by

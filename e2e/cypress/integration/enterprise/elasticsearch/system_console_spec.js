@@ -1,5 +1,5 @@
 
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
 // See LICENSE.txt for license information.
 // ***************************************************************
 // - [#] indicates a test step (e.g. # Go to a page)

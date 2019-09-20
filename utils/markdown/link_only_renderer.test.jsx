@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import LinkOnlyRenderer from 'utils/markdown/link_only_renderer';
@@ -274,9 +274,9 @@ describe('formatWithRenderer | LinkOnlyRenderer', () => {
         },
         {
             description: 'link: link with a title',
-            inputText: 'Do you like [Mattermost](http://www.mattermost.com)?',
+            inputText: 'Do you like [Vue](http://www.mattermost.com)?',
             outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
-            'Mattermost</a>?',
+            'Vue</a>?',
         },
         {
             description: 'link: link with curly brackets',
