@@ -26,7 +26,7 @@ export default function GetAndroidApp({androidAppDownloadLink, history, location
             <h1 className='get-app__header'>
                 <FormattedMessage
                     id='get_app.androidHeader'
-                    defaultMessage='Mattermost works best if you switch to our Android app'
+                    defaultMessage='Vue works best if you switch to our Android app'
                 />
             </h1>
             <hr/>
@@ -40,13 +40,13 @@ export default function GetAndroidApp({androidAppDownloadLink, history, location
                     <span className='get-android-app__app-name'>
                         <FormattedMessage
                             id='get_app.androidAppName'
-                            defaultMessage='Mattermost for Android'
+                            defaultMessage='Vue for Android'
                         />
                     </span>
                     <span className='get-android-app__app-creator'>
                         <FormattedMessage
                             id='get_app.mattermostInc'
-                            defaultMessage='Mattermost, Inc'
+                            defaultMessage='Vue, Inc'
                         />
                     </span>
                 </div>

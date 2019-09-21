@@ -143,7 +143,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
       <AdminPanel
         className=""
         id="group_users"
-        subtitleDefault="Listing of users in Mattermost associated with this group."
+        subtitleDefault="Listing of users in Vue associated with this group."
         subtitleId="admin.group_settings.group_detail.groupUsersDescription"
         titleDefault="Users"
         titleId="admin.group_settings.group_detail.groupUsersTitle"
@@ -314,7 +314,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
       <AdminPanel
         className=""
         id="group_users"
-        subtitleDefault="Listing of users in Mattermost associated with this group."
+        subtitleDefault="Listing of users in Vue associated with this group."
         subtitleId="admin.group_settings.group_detail.groupUsersDescription"
         titleDefault="Users"
         titleId="admin.group_settings.group_detail.groupUsersTitle"
@@ -474,7 +474,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
       <AdminPanel
         className=""
         id="group_users"
-        subtitleDefault="Listing of users in Mattermost associated with this group."
+        subtitleDefault="Listing of users in Vue associated with this group."
         subtitleId="admin.group_settings.group_detail.groupUsersDescription"
         titleDefault="Users"
         titleId="admin.group_settings.group_detail.groupUsersTitle"
@@ -634,7 +634,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
       <AdminPanel
         className=""
         id="group_users"
-        subtitleDefault="Listing of users in Mattermost associated with this group."
+        subtitleDefault="Listing of users in Vue associated with this group."
         subtitleId="admin.group_settings.group_detail.groupUsersDescription"
         titleDefault="Users"
         titleId="admin.group_settings.group_detail.groupUsersTitle"

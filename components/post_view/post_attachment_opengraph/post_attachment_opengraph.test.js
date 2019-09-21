@@ -39,8 +39,8 @@ describe('PostAttachmentOpenGraph', () => {
                 secure_url: '',
                 url: imageUrl,
             }],
-            site_name: 'Mattermost',
-            title: 'Mattermost Private Cloud Messaging',
+            site_name: 'Vue',
+            title: 'Vue Private Cloud Messaging',
         },
         toggleEmbedVisibility: jest.fn(),
         actions: {

@@ -30,7 +30,7 @@ describe('Markdown', () => {
         // Note we use the Gigantic timeout to ensure that the large images will load
         cy.getLastPostId().then((postId) => {
             cy.get(`#postMessageText_${postId}`).find('p').
-                should('have.text', 'Mattermost/platform build status:  ');
+                should('have.text', 'Vue/platform build status:  ');
 
             cy.get(`#postMessageText_${postId}`).find('img').
                 should('have.class', 'markdown-inline-img').

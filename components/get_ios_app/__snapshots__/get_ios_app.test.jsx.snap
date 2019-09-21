@@ -8,7 +8,7 @@ exports[`components/GetIosApp should match snapshot 1`] = `
     className="get-app__header"
   >
     <FormattedMessage
-      defaultMessage="Mattermost works best if you switch to our iPhone app"
+      defaultMessage="Vue works best if you switch to our iPhone app"
       id="get_app.iosHeader"
       values={Object {}}
     />
@@ -43,8 +43,8 @@ exports[`components/GetIosApp should match snapshot 1`] = `
     href="mattermost://"
   >
     <FormattedMessage
-      defaultMessage="Open Mattermost"
-      id="get_app.openMattermost"
+      defaultMessage="Open Vue"
+      id="get_app.openVue"
       values={Object {}}
     />
   </a>

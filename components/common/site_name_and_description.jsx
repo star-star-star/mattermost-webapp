@@ -12,7 +12,7 @@ export default class SiteNameAndDescription extends React.PureComponent {
     };
 
     static defaultProps = {
-        siteName: 'Mattermost',
+        siteName: 'Vue',
     };
 
     render() {

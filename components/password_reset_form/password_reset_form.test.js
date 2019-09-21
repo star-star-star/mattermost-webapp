@@ -18,7 +18,7 @@ describe('components/PasswordResetForm', () => {
         location: {
             search: '',
         },
-        siteName: 'Mattermost',
+        siteName: 'Vue',
         actions: {
             resetUserPassword: jest.fn().mockResolvedValue({data: true}),
         },

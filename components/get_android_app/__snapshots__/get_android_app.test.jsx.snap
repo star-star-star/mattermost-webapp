@@ -8,7 +8,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
     className="get-app__header"
   >
     <FormattedMessage
-      defaultMessage="Mattermost works best if you switch to our Android app"
+      defaultMessage="Vue works best if you switch to our Android app"
       id="get_app.androidHeader"
       values={Object {}}
     />
@@ -27,7 +27,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
         className="get-android-app__app-name"
       >
         <FormattedMessage
-          defaultMessage="Mattermost for Android"
+          defaultMessage="Vue for Android"
           id="get_app.androidAppName"
           values={Object {}}
         />
@@ -36,7 +36,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
         className="get-android-app__app-creator"
       >
         <FormattedMessage
-          defaultMessage="Mattermost, Inc"
+          defaultMessage="Vue, Inc"
           id="get_app.mattermostInc"
           values={Object {}}
         />

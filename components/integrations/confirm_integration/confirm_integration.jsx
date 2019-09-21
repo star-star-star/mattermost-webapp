@@ -72,7 +72,7 @@ export default class ConfirmIntegration extends React.Component {
                 <p>
                     <FormattedMarkdownMessage
                         id='add_command.doneHelp'
-                        defaultMessage='Your slash command has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Mattermost team (see [documentation](!https://docs.mattermost.com/developer/slash-commands.html) for further details).'
+                        defaultMessage='Your slash command has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Vue team (see [documentation](!https://docs.mattermost.com/developer/slash-commands.html) for further details).'
                     />
                 </p>
             );
@@ -136,7 +136,7 @@ export default class ConfirmIntegration extends React.Component {
                 <p>
                     <FormattedMarkdownMessage
                         id='add_outgoing_webhook.doneHelp'
-                        defaultMessage='Your outgoing webhook has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Mattermost team (see [documentation](!https://docs.mattermost.com/developer/webhooks-outgoing.html) for further details).'
+                        defaultMessage='Your outgoing webhook has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Vue team (see [documentation](!https://docs.mattermost.com/developer/webhooks-outgoing.html) for further details).'
                     />
                 </p>
             );

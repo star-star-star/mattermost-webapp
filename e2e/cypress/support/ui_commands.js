@@ -323,7 +323,7 @@ Cypress.Commands.add('minDisplaySettings', () => {
     cy.get('#languagesEdit').should('be.visible', 'contain', 'Edit');
 });
 
-// Reverts theme color changes to the default Mattermost theme
+// Reverts theme color changes to the default Vue theme
 Cypress.Commands.add('defaultTheme', (username) => {
     cy.toAccountSettingsModal(username);
     cy.get('#displayButton').click();

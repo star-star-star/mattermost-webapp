@@ -705,7 +705,7 @@ export default class PluginManagement extends AdminSettings {
                     helpText={
                         <FormattedMarkdownMessage
                             id='admin.plugins.settings.enableDesc'
-                            defaultMessage='When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See [documentation](https://about.mattermost.com/default-plugin-uploads) to learn more.'
+                            defaultMessage='When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.mattermost.com/default-plugin-uploads) to learn more.'
                         />
                     }
                     value={this.state.enable}
@@ -821,7 +821,7 @@ export default class PluginManagement extends AdminSettings {
                         <p className='help-text'>
                             <FormattedHTMLMessage
                                 id='admin.plugin.installedDesc'
-                                defaultMessage='Installed plugins on your Mattermost server. Pre-packaged plugins are installed by default, and can be disabled but not removed.'
+                                defaultMessage='Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed.'
                             />
                         </p>
                         <br/>
@@ -837,7 +837,7 @@ export default class PluginManagement extends AdminSettings {
             uploadHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.plugin.uploadDesc'
-                    defaultMessage='Upload a plugin for your Mattermost server. See [documentation](!https://about.mattermost.com/default-plugin-uploads) to learn more.'
+                    defaultMessage='Upload a plugin for your Vue server. See [documentation](!https://about.mattermost.com/default-plugin-uploads) to learn more.'
                 />
             );
         } else if (enable === true && enableUploads === false) {

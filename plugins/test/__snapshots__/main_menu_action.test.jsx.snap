@@ -278,7 +278,7 @@ exports[`plugins/MainMenuActions should match snapshot and click plugin item for
       id="about"
       modalId="about"
       show={true}
-      text="About Mattermost"
+      text="About Vue"
     />
   </MenuGroup>
   <MenuGroup>

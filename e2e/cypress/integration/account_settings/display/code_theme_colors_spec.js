@@ -53,7 +53,7 @@ describe('AS14319 Theme Colors - Code', () => {
         // # Select the Theme Colors radio
         cy.get('#standardThemes').check().should('be.checked');
 
-        // # Select the Mattermost pre-made theme
+        // # Select the Vue pre-made theme
         cy.get('#premadeThemeMattermost').first().click();
 
         // # Save and close settings modal

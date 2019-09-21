@@ -26,7 +26,7 @@ export default function GetIosApp({iosAppDownloadLink, history, location}) {
             <h1 className='get-app__header'>
                 <FormattedMessage
                     id='get_app.iosHeader'
-                    defaultMessage='Mattermost works best if you switch to our iPhone app'
+                    defaultMessage='Vue works best if you switch to our iPhone app'
                 />
             </h1>
             <hr/>
@@ -56,8 +56,8 @@ export default function GetIosApp({iosAppDownloadLink, history, location}) {
                 href='mattermost://'
             >
                 <FormattedMessage
-                    id='get_app.openMattermost'
-                    defaultMessage='Open Mattermost'
+                    id='get_app.openVue'
+                    defaultMessage='Open Vue'
                 />
             </a>
             <span className='get-app__continue-with-browser'>

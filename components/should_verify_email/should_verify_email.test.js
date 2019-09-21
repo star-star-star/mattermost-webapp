@@ -12,7 +12,7 @@ describe('components/ShouldVerifyEmail', () => {
         location: {
             search: '',
         },
-        siteName: 'Mattermost',
+        siteName: 'Vue',
         actions: {
             sendVerificationEmail: jest.fn().mockResolvedValue({data: true}),
         },

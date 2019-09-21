@@ -27,7 +27,7 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Mattermost'
+                defaultMessage='**Notice**\nfrom Vue'
             />
         ),
         icon: mattermostIcon,
@@ -51,7 +51,7 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Mattermost'
+                defaultMessage='**Notice**\nfrom Vue'
             />
         ),
         icon: mattermostIcon,
@@ -81,7 +81,7 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Mattermost'
+                defaultMessage='**Notice**\nfrom Vue'
             />
         ),
         icon: mattermostIcon,
@@ -116,7 +116,7 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Mattermost'
+                defaultMessage='**Notice**\nfrom Vue'
             />
         ),
         icon: mattermostIcon,

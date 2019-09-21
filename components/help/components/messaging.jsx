@@ -20,7 +20,7 @@ export default function HelpMessaging() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.messaging.write'
-                    defaultMessage='**Write messages** using the text input box at the bottom of Mattermost. Press ENTER to send a message. Use SHIFT+ENTER to create a new line without sending a message.'
+                    defaultMessage='**Write messages** using the text input box at the bottom of Vue. Press ENTER to send a message. Use SHIFT+ENTER to create a new line without sending a message.'
                 />
             </p>
             <p>
@@ -64,7 +64,7 @@ export default function HelpMessaging() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.messaging.attach'
-                    defaultMessage='**Attach files** by dragging and dropping into Mattermost or clicking the attachment icon in the text input box.'
+                    defaultMessage='**Attach files** by dragging and dropping into Vue or clicking the attachment icon in the text input box.'
                 />
             </p>
             <p className='links'>

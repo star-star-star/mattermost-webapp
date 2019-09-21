@@ -16,7 +16,7 @@ export default function ErrorTitle({type, title}) {
             errorTitle = (
                 <FormattedMessage
                     id='error.local_storage.title'
-                    defaultMessage='Cannot Load Mattermost'
+                    defaultMessage='Cannot Load Vue'
                 />
             );
             break;
@@ -40,7 +40,7 @@ export default function ErrorTitle({type, title}) {
             errorTitle = (
                 <FormattedMessage
                     id='error.oauth_missing_code.title'
-                    defaultMessage='Mattermost needs your help'
+                    defaultMessage='Vue needs your help'
                 />
             );
             break;

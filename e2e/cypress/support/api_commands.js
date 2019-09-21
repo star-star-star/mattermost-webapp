@@ -11,7 +11,7 @@ import theme from '../fixtures/theme.json';
 // *****************************************************************************
 // Read more:
 // - https://on.cypress.io/custom-commands on writing Cypress commands
-// - https://api.mattermost.com/ for Mattermost API reference
+// - https://api.mattermost.com/ for Vue API reference
 // *****************************************************************************
 
 // *****************************************************************************

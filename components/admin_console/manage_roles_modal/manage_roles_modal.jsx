@@ -197,7 +197,7 @@ export default class ManageRolesModal extends React.PureComponent {
                             </strong>
                             <FormattedMessage
                                 id='admin.manage_roles.postAllRole'
-                                defaultMessage='Access to post to all Mattermost channels including direct messages.'
+                                defaultMessage='Access to post to all Vue channels including direct messages.'
                             />
                         </label>
                     </div>
@@ -218,7 +218,7 @@ export default class ManageRolesModal extends React.PureComponent {
                             </strong>
                             <FormattedMessage
                                 id='admin.manage_roles.postAllPublicRole'
-                                defaultMessage='Access to post to all Mattermost public channels.'
+                                defaultMessage='Access to post to all Vue public channels.'
                             />
                         </label>
                     </div>
