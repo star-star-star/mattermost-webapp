@@ -50,24 +50,28 @@
     position: absolute;
     vertical-align: top;
     width: 260px;
+    border-radius: 20px;
 
     ul {
         list-style: none;
         padding: 0;
+        border-radius: 20px;
     }
 
     > ul {
         @include clearfix;
         @include border-radius(2px);
-        border-left: 1px solid $light-gray;
-        border-right: 1px solid $light-gray;
+        // border-left: 1px solid $light-gray;
+        // border-right: 1px solid $light-gray;
     }
 }
 
 .backstage-sidebar__category {
+    border-radius: 20px;
 
     + .backstage-sidebar__category {
         .category-title {
+            border-radius: 20px;
             border-top: none;
         }
     }
@@ -97,6 +101,7 @@
     .category-title--active {
         background-color: $primary-color;
         color: $white;
+        border-radius: 20px;
 
         .fa {
             @include opacity(1);
@@ -115,6 +120,7 @@
 
     .section-title,
     .subsection-title {
+        border-radius: 20px;
         display: block;
         font-size: .95em;
         line-height: 29px;
@@ -194,6 +200,7 @@
     input {
         background: $white;
         padding-left: 30px;
+        border-radius: 2em;
     }
 }
 
@@ -355,6 +362,7 @@
     margin: 0 30px 30px 0;
     padding: 20px;
     text-align: center;
+    border-radius: 20px;
 
     &:hover {
         @extend %box-shadow-1;

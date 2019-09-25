@@ -263,7 +263,7 @@ export default function HelpFormatting() {
             </p>
             <FormattedMessage
                 id='help.formatting.imagesExample'
-                defaultMessage={'![alt text]({siteUrl}/static/images/logo-email.png "Mattermost horizontal logo")\n\nand\n\n[![Atlassian](https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png)](https://travis-ci.org/mattermost/mattermost-server) [![Github](https://github.githubassets.com/favicon.ico)](https://github.com/mattermost/mattermost-server)'}
+                defaultMessage={'![alt text]({siteUrl}/static/images/logo-email.png "Vue horizontal logo")\n\nand\n\n[![Atlassian](https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png)](https://travis-ci.org/mattermost/mattermost-server) [![Github](https://github.githubassets.com/favicon.ico)](https://github.com/mattermost/mattermost-server)'}
                 values={{siteURL: getSiteURL()}}
             >
                 {(example) => renderRawExampleWithResult(example)}

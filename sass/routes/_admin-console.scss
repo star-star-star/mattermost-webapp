@@ -30,6 +30,7 @@
 
     .admin-console__content {
         max-width: 920px;
+        padding: 1em;
     }
 
     mark {
@@ -375,6 +376,7 @@
         font-weight: normal;
         z-index: 100;
         align-items: center;
+        margin: 1em;
 
         &.with-back {
             padding: 0;
@@ -413,7 +415,8 @@
         z-index: 100;
         -webkit-flex: 0 0 60px;
         flex: 0 0 60px;
-        width: 100%;
+        width: 95%;
+        margin: 2em;
 
         .save-button {
             @include opacity(1);
@@ -511,12 +514,13 @@
     background: #333;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 97%;
     left: 0;
     position: fixed;
     top: 0;
     width: 220px;
     z-index: 10;
+    margin: 1em;
 
     mark {
         border-radius: 5%;
@@ -536,6 +540,7 @@
 
     .team__header {
         background: transparent;
+        border-radius: 1em;
     }
 
     .nav-pills__container {
@@ -545,6 +550,7 @@
         margin-top: 1px;
         padding-bottom: 20px;
         position: relative;
+        border-radius: 20px;
 
         .filter-container{
             position: relative;
@@ -588,6 +594,8 @@
 
     .sidebar-category {
         margin-top: 0px;
+        margin: .75em;
+        border-radius: 20px;
 
         .category-title {
             background: alpha-color($white, .15);
@@ -595,6 +603,7 @@
             line-height: 15.4px;
             padding: 10px 12px;
             text-transform: uppercase;
+            border-radius: 20px;
 
             .category-icon {
                 margin-right: 6px;
@@ -632,6 +641,8 @@
     .sections {
         &.sections--settings {
             .sidebar-section-title {
+                // margin-left: 1em;
+                // margin-right: 1em;
                 text-transform: uppercase;
 
                 &:hover,
@@ -644,10 +655,16 @@
 
     .sidebar-section-title {
         padding: 6px 35px 6px 12px;
+        border-radius: 20px;
+        // margin-left: 1em;
+        // margin-right: 1em;
     }
 
     .sidebar-subsection-title {
         padding: 6px 35px 6px 30px;
+        border-radius: 20px;
+        // margin-left: 1em;
+        // margin-right: 1em;
     }
 
     .sidebar-section-title,
@@ -656,6 +673,7 @@
         display: block;
         font-size: 13px;
         position: relative;
+        border-radius: 20px;
 
         &:focus {
             text-decoration: none;

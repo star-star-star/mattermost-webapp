@@ -36,6 +36,7 @@
         @include border-radius(3px);
         @include box-shadow(unset);
         border-color: rgba(61, 60, 64, 0.3);
+        border-radius: 20px;
     }
 
     .suggestion-list__content {

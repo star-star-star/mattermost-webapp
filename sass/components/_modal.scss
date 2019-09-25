@@ -101,6 +101,8 @@
     }
 
     .modal-footer {
+        border-radius: 0px 0px 10px 10px;
+
         &.modal-footer--invisible {
             height: 0;
             padding: 0;
@@ -109,10 +111,13 @@
     }
 
     &.modal-image {
+        border-radius: 0 !important;
         overflow: hidden;
 
         .modal-backdrop {
+            border-radius: 0 !important;
             &.in {
+                border-radius: 0 !important;
                 @include opacity(.7);
             }
         }
@@ -124,6 +129,7 @@
 
     .btn {
         font-size: 13px;
+        border-radius: 20px;
     }
 
     .info__label {
@@ -199,6 +205,7 @@
         color: $white;
         min-height: 56px;
         padding: 14px 15px 11px;
+        border-radius: 8px 8px 0 0;
 
         .modal-title {
             color: $bg--gray;
@@ -254,6 +261,7 @@
                 float: right;
                 margin: -4px 33px 0 0;
                 position: relative;
+                border-radius: 20px;
 
                 i {
                     margin-right: 5px;
@@ -497,7 +505,7 @@
 
     .channel-switch__modal {
         .modal-content {
-            border-radius: 2px;
+            border-radius: 20px;
         }
 
         .modal-header {
@@ -505,6 +513,7 @@
             border: none;
             min-height: 0;
             padding: 0;
+            border-radius: 8px 8px 0 0;
 
             .close {
                 top: 12px;
@@ -532,6 +541,7 @@
         .form-control {
             margin: 0 16px 16px;
             width: calc(100% - 32px);
+            border-radius: 20px;
         }
 
         .suggestion-list__content {
@@ -694,6 +704,7 @@
         font-weight: 600;
         height: 39px;
         width: 100%;
+        border-radius: 20px;
     }
 }
 
@@ -878,6 +889,7 @@
     .filter-button {
         .btn {
             height: 34px;
+            border-radius: 20px;
         }
     }
 
@@ -922,6 +934,7 @@
 
 .team-selector-modal, .channel-selector-modal {
     .modal-header {
+        border-radius: 8px 8px 0 0;
         background: $black;
         color: $white;
         .close {

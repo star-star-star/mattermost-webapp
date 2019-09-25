@@ -44,7 +44,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
         id="about.title"
         values={
           Object {
-            "appTitle": "Mattermost",
+            "appTitle": "Vue",
           }
         }
       />
@@ -66,7 +66,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
         <h3
           className="about-modal__title"
         >
-          Mattermost
+          Vue
            
           <FormattedMessage
             defaultMessage="Enterprise Edition"
@@ -88,7 +88,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Vue Version:"
               id="about.version"
               values={Object {}}
             />
@@ -128,7 +128,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
             values={Object {}}
           />
            
-          Mattermost Inc
+          Vue Inc
         </div>
       </div>
     </div>
@@ -156,7 +156,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
           className="about-modal__copyright"
         >
           <FormattedMessage
-            defaultMessage="Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved"
+            defaultMessage="Copyright 2015 - {currentYear} Vue, Inc. All rights reserved"
             id="about.copyright"
             values={
               Object {
@@ -201,7 +201,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
     >
       <p>
         <InjectIntl(FormattedMarkdownMessage)
-          defaultMessage="Mattermost is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
+          defaultMessage="Vue is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
           id="about.notice"
         />
       </p>
@@ -292,7 +292,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
         id="about.title"
         values={
           Object {
-            "appTitle": "Mattermost",
+            "appTitle": "Vue",
           }
         }
       />
@@ -314,7 +314,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
         <h3
           className="about-modal__title"
         >
-          Mattermost
+          Vue
            
           <FormattedMessage
             defaultMessage="Team Edition"
@@ -336,7 +336,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Vue Version:"
               id="about.version"
               values={Object {}}
             />
@@ -374,7 +374,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
     >
       <div>
         <FormattedMessage
-          defaultMessage="Join the Mattermost community at "
+          defaultMessage="Join the Vue community at "
           id="about.teamEditionLearn"
           values={Object {}}
         />
@@ -393,7 +393,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
           className="about-modal__copyright"
         >
           <FormattedMessage
-            defaultMessage="Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved"
+            defaultMessage="Copyright 2015 - {currentYear} Vue, Inc. All rights reserved"
             id="about.copyright"
             values={
               Object {
@@ -438,7 +438,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
     >
       <p>
         <InjectIntl(FormattedMarkdownMessage)
-          defaultMessage="Mattermost is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
+          defaultMessage="Vue is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
           id="about.notice"
         />
       </p>
@@ -528,7 +528,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
         id="about.title"
         values={
           Object {
-            "appTitle": "Mattermost",
+            "appTitle": "Vue",
           }
         }
       />
@@ -550,7 +550,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
         <h3
           className="about-modal__title"
         >
-          Mattermost
+          Vue
            
           <FormattedMessage
             defaultMessage="Team Edition"
@@ -572,7 +572,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Vue Version:"
               id="about.version"
               values={Object {}}
             />
@@ -622,7 +622,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
     >
       <div>
         <FormattedMessage
-          defaultMessage="Join the Mattermost community at "
+          defaultMessage="Join the Vue community at "
           id="about.teamEditionLearn"
           values={Object {}}
         />
@@ -641,7 +641,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
           className="about-modal__copyright"
         >
           <FormattedMessage
-            defaultMessage="Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved"
+            defaultMessage="Copyright 2015 - {currentYear} Vue, Inc. All rights reserved"
             id="about.copyright"
             values={
               Object {
@@ -686,7 +686,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
     >
       <p>
         <InjectIntl(FormattedMarkdownMessage)
-          defaultMessage="Mattermost is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
+          defaultMessage="Vue is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
           id="about.notice"
         />
       </p>
@@ -776,7 +776,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
         id="about.title"
         values={
           Object {
-            "appTitle": "Mattermost",
+            "appTitle": "Vue",
           }
         }
       />
@@ -798,7 +798,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
         <h3
           className="about-modal__title"
         >
-          Mattermost
+          Vue
            
           <FormattedMessage
             defaultMessage="Team Edition"
@@ -820,7 +820,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Vue Version:"
               id="about.version"
               values={Object {}}
             />
@@ -858,7 +858,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
     >
       <div>
         <FormattedMessage
-          defaultMessage="Join the Mattermost community at "
+          defaultMessage="Join the Vue community at "
           id="about.teamEditionLearn"
           values={Object {}}
         />
@@ -877,7 +877,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
           className="about-modal__copyright"
         >
           <FormattedMessage
-            defaultMessage="Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved"
+            defaultMessage="Copyright 2015 - {currentYear} Vue, Inc. All rights reserved"
             id="about.copyright"
             values={
               Object {
@@ -922,7 +922,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
     >
       <p>
         <InjectIntl(FormattedMarkdownMessage)
-          defaultMessage="Mattermost is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
+          defaultMessage="Vue is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps."
           id="about.notice"
         />
       </p>

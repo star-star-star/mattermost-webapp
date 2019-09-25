@@ -71,7 +71,7 @@
         .modal-body {
             margin: 0 auto;
             min-height: calc(100% - 62px);
-            padding: 0;
+            // padding: 0;
         }
 
         li {
@@ -189,10 +189,12 @@
 
         .settings-table {
             display: table;
-            margin: 0 auto;
+            // margin: 0 auto;
             max-width: 1000px;
             table-layout: fixed;
             width: 100%;
+            border-radius: 3em;
+            margin: 1em;
 
             > div {
                 display: table-cell;
@@ -218,13 +220,17 @@
 
             .settings-links {
                 width: 180px;
+                border-radius: 20px;
+                // border-radius: 0em;
             }
 
             .settings-content {
                 padding: 0 20px 30px;
+                border-radius: 0em;
 
                 .modal-header {
                     display: none;
+                    border-radius: 8px 8px 0 0;
                 }
 
                 .section-max {
@@ -232,6 +238,7 @@
                     @include alpha-property('background', $black, .05);
                     margin-bottom: 0;
                     padding: 1em 0 1.3em;
+                    border-radius: 20px;
 
                     .section-title {
                         margin-bottom: 10px;
@@ -381,11 +388,11 @@
                 }
 
                 .divider-dark {
-                    border-bottom: 1px solid #aaa;
+                    // border-bottom: 1px solid #aaa;
                 }
 
                 .divider-light {
-                    border-bottom: 1px solid lightgrey;
+                    // border-bottom: 1px solid lightgrey;
 
                     & + .divider-light {
                         display: none;
@@ -466,7 +473,8 @@
 
     .nav-pills {
         > li {
-            margin: 0;
+            border-radius: 2em;
+            margin: 1em;
 
             button {
                 border-radius: 0;
@@ -489,7 +497,9 @@
 
             &:hover {
                 button {
+                    border-radius: 2em;
                     @include alpha-property(background-color, $black, .1);
+
                 }
             }
 
@@ -513,7 +523,8 @@
                 button:hover,
                 button:focus {
                     @include alpha-property(background-color, $black, .1);
-                    border-radius: 0;
+                    // border-radius: 0;
+                    border-radius: 2em;
                     font-weight: 400;
                     position: relative;
                 }
@@ -599,6 +610,7 @@
 
 .color-btn {
     margin: 4px;
+    border-radius: 20px;
 }
 
 .no-resize {
@@ -611,6 +623,7 @@
 }
 
 .section-min {
+    border-radius: 20px;
     padding: 1em;
     cursor: pointer;
     position: relative;

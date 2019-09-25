@@ -15,7 +15,8 @@
                 padding: 20px 25px;
                 display: flex;
                 align-items: center;
-                border-bottom: 1px solid #ddd;
+                // border-bottom: 1px solid #ddd;
+                border-radius: 8px 8px 0 0;
 
                 .close {
                     color: inherit;

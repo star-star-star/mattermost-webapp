@@ -7,6 +7,9 @@
     position: relative;
     width: 100%;
     z-index: 9;
+    // border-radius: 20px;
+    // border: 1px solid;
+    
 
     .move--left & {
         .flex-parent {
@@ -516,6 +519,7 @@
 .sidebar--left,
 .sidebar--menu,
 .admin-sidebar {
+    border-radius: 1em;
 
     .divider {
         border-top: 1px solid transparent;
@@ -534,6 +538,7 @@
         position: relative;
         max-height: 63px;
         padding: 10px;
+        border-radius: 1em;
 
         &:before {
             @include single-transition(all, $transition-quick, ease-in-out);
@@ -744,6 +749,8 @@
 }
 
 .app__body {
+    color: $primary-color;
+
 
     .channel-header__links {
         display: inline-block;

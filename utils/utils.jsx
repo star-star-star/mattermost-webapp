@@ -582,7 +582,7 @@ export function applyTheme(theme) {
         case 'Organization':
             dndIndicator = Constants.THEMES.organization.dndIndicator;
             break;
-        case 'Mattermost Dark':
+        case 'Vue Dark':
             dndIndicator = Constants.THEMES.mattermostDark.dndIndicator;
             break;
         case 'Windows Dark':
@@ -636,6 +636,10 @@ export function applyTheme(theme) {
         changeCss('.app__body .post .file-view--single', `background:${theme.centerChannelBg}`);
         changeCss('.app__body .modal-tabs .nav-tabs > li', `background:${theme.centerChannelBg}`);
         changeCss('.app__body .modal-tabs .nav-tabs > li > a', `background:${theme.centerChannelBg}`);
+        changeCss('.app__body', `background:${theme.centerChannelBg}`);
+        changeCss('.app__body', `background-color:${theme.centerChannelBg}`);
+        changeCss('.app__body .body', `background:${theme.centerChannelBg}`);
+        changeCss('.app__body .body', `background-color:${theme.centerChannelBg}`);
 
         // Fade out effect for collapsed posts (not hovered, not from current user)
         changeCss(

@@ -584,6 +584,7 @@
         }
 
         .form-control {
+            border-radius: 20px;
             &:hover, &:focus {
                 border-color: var(--link-color);
             }

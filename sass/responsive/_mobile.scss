@@ -669,6 +669,7 @@
     }
 
     .form-control {
+        border-radius: 20px;
         &.min-height {
             min-height: 100px;
         }
@@ -1281,6 +1282,7 @@
         @include translate3d(-290px, 0, 0);
         border: none;
         width: 290px;
+        margin: 1em;
 
         &.sidebar--padded {
             padding-top: 0;
@@ -1544,6 +1546,7 @@
 
         .sidebar--left {
             left: 0;
+            margin: 1em;
 
             &.move--right {
                 left: 65px;
@@ -1950,6 +1953,7 @@
     .sidebar--left {
         @include translate3d(-260px, 0, 0);
         width: 260px;
+        margin: 1em;
 
         .nav-pills__unread-indicator {
             width: 230px;
@@ -2161,6 +2165,7 @@
     .multi-teams {
         .sidebar--left {
             width: 220px;
+            margin: 1em;
 
             .nav-pills__unread-indicator {
                 width: 190px;

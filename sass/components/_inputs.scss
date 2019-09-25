@@ -38,6 +38,7 @@
 }
 
 .form-control {
+    border-radius: 20px;
     @include border-radius($border-rad);
 
     &:focus {

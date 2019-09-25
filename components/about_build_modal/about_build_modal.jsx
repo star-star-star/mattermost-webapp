@@ -68,7 +68,7 @@ export default class AboutBuildModal extends React.PureComponent {
             <div>
                 <FormattedMessage
                     id='about.teamEditionLearn'
-                    defaultMessage='Join the Mattermost community at '
+                    defaultMessage='Join the Vue community at '
                 />
                 <a
                     target='_blank'
@@ -206,7 +206,7 @@ export default class AboutBuildModal extends React.PureComponent {
                     >
                         <FormattedMessage
                             id='about.title'
-                            values={{appTitle: config.SiteName || 'Mattermost'}}
+                            values={{appTitle: config.SiteName || 'Vue'}}
                             defaultMessage='About {appTitle}'
                         />
                     </Modal.Title>
@@ -217,13 +217,13 @@ export default class AboutBuildModal extends React.PureComponent {
                             <MattermostLogo/>
                         </div>
                         <div>
-                            <h3 className='about-modal__title'>{'Mattermost'} {title}</h3>
+                            <h3 className='about-modal__title'>{'Vue'} {title}</h3>
                             <p className='about-modal__subtitle padding-bottom'>{subTitle}</p>
                             <div className='form-group less'>
                                 <div>
                                     <FormattedMessage
                                         id='about.version'
-                                        defaultMessage='Mattermost Version:'
+                                        defaultMessage='Vue Version:'
                                     />
                                     <span id='versionString'>{'\u00a0' + mmversion}</span>
                                 </div>
@@ -252,7 +252,7 @@ export default class AboutBuildModal extends React.PureComponent {
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    defaultMessage='Copyright 2015 - {currentYear} Vue, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -269,7 +269,7 @@ export default class AboutBuildModal extends React.PureComponent {
                         <p>
                             <FormattedMarkdownMessage
                                 id='about.notice'
-                                defaultMessage='Mattermost is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.'
+                                defaultMessage='Vue is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.'
                             />
                         </p>
                     </div>
