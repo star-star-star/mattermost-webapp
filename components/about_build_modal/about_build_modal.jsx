@@ -73,9 +73,9 @@ export default class AboutBuildModal extends React.PureComponent {
                 <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href='http://www.mattermost.org/'
+                    href='http://www.vueteams.com/'
                 >
-                    {'mattermost.org'}
+                    {'vueteams.com'}
                 </a>
             </div>
         );
@@ -105,9 +105,9 @@ export default class AboutBuildModal extends React.PureComponent {
                     <a
                         target='_blank'
                         rel='noopener noreferrer'
-                        href='http://about.mattermost.com/'
+                        href='http://about.vueteams.com/'
                     >
-                        {'about.mattermost.com'}
+                        {'about.vueteams.com'}
                     </a>
                 </div>
             );
@@ -269,7 +269,7 @@ export default class AboutBuildModal extends React.PureComponent {
                         <p>
                             <FormattedMarkdownMessage
                                 id='about.notice'
-                                defaultMessage='Vue is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.'
+                                defaultMessage='Vue is made possible by the open source software used in our [server](!https://about.vueteams.com/platform-notice-txt/), [desktop](!https://about.vueteams.com/desktop-notice-txt/) and [mobile](!https://about.vueteams.com/mobile-notice-txt/) apps.'
                             />
                         </p>
                     </div>

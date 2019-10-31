@@ -152,7 +152,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <a
-                                        href='https://about.mattermost.com/default-elasticsearch-documentation/'
+                                        href='https://about.vueteams.com/default-elasticsearch-documentation/'
                                         rel='noopener noreferrer'
                                         target='_blank'
                                     >
@@ -185,7 +185,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <a
-                                        href='https://about.mattermost.com/default-elasticsearch-server-setup/'
+                                        href='https://about.vueteams.com/default-elasticsearch-server-setup/'
                                         rel='noopener noreferrer'
                                         target='_blank'
                                     >

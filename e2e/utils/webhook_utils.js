@@ -9,7 +9,7 @@ function getFullDialog(triggerId, webhookBaseUrl) {
             callback_id: 'somecallbackid',
             title: 'Title for Full Dialog Test',
             icon_url:
-                'http://www.mattermost.org/wp-content/uploads/2016/04/icon.png',
+                'http://www.vueteams.com/wp-content/uploads/2016/04/icon.png',
             elements: [
                 {
                     display_name: 'Display Name',
@@ -172,7 +172,7 @@ function getSimpleDialog(triggerId, webhookBaseUrl) {
             callback_id: 'somecallbackid',
             title: 'Title for Dialog Test without elements',
             icon_url:
-                'http://www.mattermost.org/wp-content/uploads/2016/04/icon.png',
+                'http://www.vueteams.com/wp-content/uploads/2016/04/icon.png',
             submit_label: 'Submit Test',
             notify_on_cancel: true,
             state: 'somestate',

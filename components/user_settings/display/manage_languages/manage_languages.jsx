@@ -175,7 +175,7 @@ export default class ManageLanguage extends React.Component {
                     <br/>
                     <FormattedMarkdownMessage
                         id='user.settings.languages.promote'
-                        defaultMessage='Select which language Vue displays in the user interface.\n \nWould you like to help with translations? Join the [Vue Translation Server](!http://translate.mattermost.com/) to contribute.'
+                        defaultMessage='Select which language Vue displays in the user interface.\n \nWould you like to help with translations? Join the [Vue Translation Server](!http://translate.vueteams.com/) to contribute.'
                     />
                 </div>
             </div>

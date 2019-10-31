@@ -125,28 +125,28 @@ export default class PushSettings extends AdminSettings {
             sendHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.pushOffHelp'
-                    defaultMessage='Please see [documentation on push notifications](!https://about.mattermost.com/default-mobile-push-notifications/) to learn more about setup options.'
+                    defaultMessage='Please see [documentation on push notifications](!https://about.vueteams.com/default-mobile-push-notifications/) to learn more about setup options.'
                 />
             );
         } else if (this.state.pushNotificationServerType === PUSH_NOTIFICATIONS_MHPNS) {
             pushServerHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.mhpnsHelp'
-                    defaultMessage='Download [Vue iOS app](!https://about.mattermost.com/mattermost-ios-app/) from iTunes. Download [Vue Android app](!https://about.mattermost.com/mattermost-android-app/) from Google Play. Learn more about the [Vue Hosted Push Notification Service](!https://about.mattermost.com/default-hpns/).'
+                    defaultMessage='Download [Vue iOS app](!https://about.vueteams.com/mattermost-ios-app/) from iTunes. Download [Vue Android app](!https://about.vueteams.com/mattermost-android-app/) from Google Play. Learn more about the [Vue Hosted Push Notification Service](!https://about.vueteams.com/default-hpns/).'
                 />
             );
         } else if (this.state.pushNotificationServerType === PUSH_NOTIFICATIONS_MTPNS) {
             pushServerHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.mtpnsHelp'
-                    defaultMessage='Download [Vue iOS app](!https://about.mattermost.com/mattermost-ios-app/) from iTunes. Download [Vue Android app](!https://about.mattermost.com/mattermost-android-app/) from Google Play. Learn more about the [Vue Test Push Notification Service](!https://about.mattermost.com/default-tpns/).'
+                    defaultMessage='Download [Vue iOS app](!https://about.vueteams.com/mattermost-ios-app/) from iTunes. Download [Vue Android app](!https://about.vueteams.com/mattermost-android-app/) from Google Play. Learn more about the [Vue Test Push Notification Service](!https://about.vueteams.com/default-tpns/).'
                 />
             );
         } else {
             pushServerHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.easHelp'
-                    defaultMessage='Learn more about compiling and deploying your own mobile apps from an [Enterprise App Store](!https://about.mattermost.com/default-enterprise-app-store).'
+                    defaultMessage='Learn more about compiling and deploying your own mobile apps from an [Enterprise App Store](!https://about.vueteams.com/default-enterprise-app-store).'
                 />
             );
         }
@@ -165,7 +165,7 @@ export default class PushSettings extends AdminSettings {
                         />
                         <FormattedMarkdownMessage
                             id='admin.email.agreeHPNS'
-                            defaultMessage=' I understand and accept the Vue Hosted Push Notification Service [Terms of Service](!https://about.mattermost.com/hpns-terms/) and [Privacy Policy](!https://about.mattermost.com/hpns-privacy/).'
+                            defaultMessage=' I understand and accept the Vue Hosted Push Notification Service [Terms of Service](!https://about.vueteams.com/hpns-terms/) and [Privacy Policy](!https://about.vueteams.com/hpns-privacy/).'
                         />
                     </div>
                 </div>
@@ -197,7 +197,7 @@ export default class PushSettings extends AdminSettings {
                             defaultMessage='Push Notification Server:'
                         />
                     }
-                    placeholder={Utils.localizeMessage('admin.email.pushServerEx', 'E.g.: "https://push-test.mattermost.com"')}
+                    placeholder={Utils.localizeMessage('admin.email.pushServerEx', 'E.g.: "https://push-test.vueteams.com"')}
                     helpText={pushServerHelpText}
                     value={this.state.pushNotificationServer}
                     onChange={this.handleChange}

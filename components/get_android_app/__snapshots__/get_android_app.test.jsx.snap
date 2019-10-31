@@ -45,7 +45,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
   </div>
   <a
     className="btn btn-primary get-android-app__app-store-link"
-    href="https://about.mattermost.com/mattermost-android-app"
+    href="https://about.vueteams.com/mattermost-android-app"
   >
     <FormattedMessage
       defaultMessage="Continue"

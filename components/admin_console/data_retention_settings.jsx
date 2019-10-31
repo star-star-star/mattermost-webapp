@@ -222,7 +222,7 @@ export default class DataRetentionSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <a
-                                        href='https://about.mattermost.com/default-dataretention-documentation/'
+                                        href='https://about.vueteams.com/default-dataretention-documentation/'
                                         rel='noopener noreferrer'
                                         target='_blank'
                                     >

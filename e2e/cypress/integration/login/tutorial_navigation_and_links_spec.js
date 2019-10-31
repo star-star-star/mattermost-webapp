@@ -7,7 +7,7 @@
 // - Use element ID when selecting an element. Create one if none.
 // ***************************************************************
 
-const appDownloadLink = 'https://about.mattermost.com/downloads/';
+const appDownloadLink = 'https://about.vueteams.com/downloads/';
 
 describe('Test Tutorial Navigation', () => {
     before(() => {

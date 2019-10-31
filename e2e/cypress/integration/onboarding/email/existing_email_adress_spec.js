@@ -19,7 +19,7 @@ function signupWithEmail(name, pw) {
     cy.get('#signup').click();
 
     // # Type email address (by adding the uniqueUserId in the email address)
-    cy.get('#email').type('unique.' + uniqueUserId + '@sample.mattermost.com');
+    cy.get('#email').type('unique.' + uniqueUserId + '@sample.vueteams.com');
 
     // # Type 'unique-1' for username
     cy.get('#name').type(name);

@@ -199,7 +199,7 @@ export default class Integrations extends React.Component {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://about.mattermost.com/default-app-directory/'
+                                    href='https://about.vueteams.com/default-app-directory/'
                                 >
                                     <FormattedMessage
                                         id='integrations.help.appDirectory'

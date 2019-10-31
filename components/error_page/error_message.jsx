@@ -93,7 +93,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.mattermost.com/deployment/sso-google.html'}
+                                        url={'https://docs.vueteams.com/deployment/sso-google.html'}
                                         messageId={t('error.oauth_missing_code.google.link')}
                                         defaultMessage={'Google Apps'}
                                     />
@@ -108,7 +108,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.mattermost.com/deployment/sso-office.html'}
+                                        url={'https://docs.vueteams.com/deployment/sso-office.html'}
                                         messageId={t('error.oauth_missing_code.office365.link')}
                                         defaultMessage={'Office 365'}
                                     />
@@ -123,7 +123,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.mattermost.com/deployment/sso-gitlab.html'}
+                                        url={'https://docs.vueteams.com/deployment/sso-gitlab.html'}
                                         messageId={t('error.oauth_missing_code.gitlab.link')}
                                         defaultMessage={'GitLab'}
                                     />
@@ -138,7 +138,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://forum.mattermost.org/c/trouble-shoot'}
+                                        url={'https://forum.vueteams.com/c/trouble-shoot'}
                                         messageId={t('error.oauth_missing_code.forum.link')}
                                         defaultMessage={'Troubleshooting forum'}
                                     />

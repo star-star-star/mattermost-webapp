@@ -30,7 +30,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         >
           <span>
             <InjectIntl(FormattedMarkdownMessage)
-              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.mattermost.com/default-advanced-permissions)."
+              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.vueteams.com/default-advanced-permissions)."
               id="admin.permissions.introBanner"
             />
           </span>
@@ -41,7 +41,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={false}
         linkTextDefault="Edit Scheme"
         linkTextId="admin.permissions.systemSchemeBannerButton"
-        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.mattermost.com/default-team-override-scheme) is applied."
+        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied."
         subtitleId="admin.permissions.systemSchemeBannerText"
         titleDefault="System Scheme"
         titleId="admin.permissions.systemSchemeBannerTitle"
@@ -52,7 +52,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={false}
         linkTextDefault="New Team Override Scheme"
         linkTextId="admin.permissions.teamOverrideSchemesNewButton"
-        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.mattermost.com/default-system-scheme)."
+        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme)."
         subtitleId="admin.permissions.teamOverrideSchemesBannerText"
         titleDefault="Team Override Schemes"
         titleId="admin.permissions.teamOverrideSchemesTitle"
@@ -117,7 +117,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         >
           <span>
             <InjectIntl(FormattedMarkdownMessage)
-              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.mattermost.com/default-advanced-permissions)."
+              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.vueteams.com/default-advanced-permissions)."
               id="admin.permissions.introBanner"
             />
           </span>
@@ -128,7 +128,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={false}
         linkTextDefault="Edit Scheme"
         linkTextId="admin.permissions.systemSchemeBannerButton"
-        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.mattermost.com/default-team-override-scheme) is applied."
+        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied."
         subtitleId="admin.permissions.systemSchemeBannerText"
         titleDefault="System Scheme"
         titleId="admin.permissions.systemSchemeBannerTitle"
@@ -139,7 +139,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={false}
         linkTextDefault="New Team Override Scheme"
         linkTextId="admin.permissions.teamOverrideSchemesNewButton"
-        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.mattermost.com/default-system-scheme)."
+        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme)."
         subtitleId="admin.permissions.teamOverrideSchemesBannerText"
         titleDefault="Team Override Schemes"
         titleId="admin.permissions.teamOverrideSchemesTitle"
@@ -183,7 +183,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         >
           <span>
             <InjectIntl(FormattedMarkdownMessage)
-              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.mattermost.com/default-advanced-permissions)."
+              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.vueteams.com/default-advanced-permissions)."
               id="admin.permissions.introBanner"
             />
           </span>
@@ -194,7 +194,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={true}
         linkTextDefault="Edit Scheme"
         linkTextId="admin.permissions.systemSchemeBannerButton"
-        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.mattermost.com/default-team-override-scheme) is applied."
+        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied."
         subtitleId="admin.permissions.systemSchemeBannerText"
         titleDefault="System Scheme"
         titleId="admin.permissions.systemSchemeBannerTitle"
@@ -205,7 +205,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={true}
         linkTextDefault="New Team Override Scheme"
         linkTextId="admin.permissions.teamOverrideSchemesNewButton"
-        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.mattermost.com/default-system-scheme)."
+        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme)."
         subtitleId="admin.permissions.teamOverrideSchemesBannerText"
         titleDefault="Team Override Schemes"
         titleId="admin.permissions.teamOverrideSchemesTitle"
@@ -223,7 +223,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
               values={
                 Object {
                   "documentationLink": <a
-                    href="https://docs.mattermost.com/administration/config-settings.html#jobs"
+                    href="https://docs.vueteams.com/administration/config-settings.html#jobs"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -297,7 +297,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         >
           <span>
             <InjectIntl(FormattedMarkdownMessage)
-              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.mattermost.com/default-advanced-permissions)."
+              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.vueteams.com/default-advanced-permissions)."
               id="admin.permissions.introBanner"
             />
           </span>
@@ -308,7 +308,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={true}
         linkTextDefault="Edit Scheme"
         linkTextId="admin.permissions.systemSchemeBannerButton"
-        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.mattermost.com/default-team-override-scheme) is applied."
+        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied."
         subtitleId="admin.permissions.systemSchemeBannerText"
         titleDefault="System Scheme"
         titleId="admin.permissions.systemSchemeBannerTitle"
@@ -319,7 +319,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={true}
         linkTextDefault="New Team Override Scheme"
         linkTextId="admin.permissions.teamOverrideSchemesNewButton"
-        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.mattermost.com/default-system-scheme)."
+        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme)."
         subtitleId="admin.permissions.teamOverrideSchemesBannerText"
         titleDefault="Team Override Schemes"
         titleId="admin.permissions.teamOverrideSchemesTitle"
@@ -337,7 +337,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
               values={
                 Object {
                   "documentationLink": <a
-                    href="https://docs.mattermost.com/administration/config-settings.html#jobs"
+                    href="https://docs.vueteams.com/administration/config-settings.html#jobs"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -411,7 +411,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         >
           <span>
             <InjectIntl(FormattedMarkdownMessage)
-              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.mattermost.com/default-advanced-permissions)."
+              defaultMessage="Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.vueteams.com/default-advanced-permissions)."
               id="admin.permissions.introBanner"
             />
           </span>
@@ -422,7 +422,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={false}
         linkTextDefault="Edit Scheme"
         linkTextId="admin.permissions.systemSchemeBannerButton"
-        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.mattermost.com/default-team-override-scheme) is applied."
+        subtitleDefault="Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied."
         subtitleId="admin.permissions.systemSchemeBannerText"
         titleDefault="System Scheme"
         titleId="admin.permissions.systemSchemeBannerTitle"
@@ -433,7 +433,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
         disabled={false}
         linkTextDefault="New Team Override Scheme"
         linkTextId="admin.permissions.teamOverrideSchemesNewButton"
-        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.mattermost.com/default-system-scheme)."
+        subtitleDefault="Use when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme)."
         subtitleId="admin.permissions.teamOverrideSchemesBannerText"
         titleDefault="Team Override Schemes"
         titleId="admin.permissions.teamOverrideSchemesTitle"

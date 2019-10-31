@@ -31,7 +31,7 @@ export default function HelpMessaging() {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/replyIcon.PNG'
+                    src='https://docs.vueteams.com/_images/replyIcon.PNG'
                     alt='reply arrow'
                     className='markdown-inline-img'
                 />
@@ -50,7 +50,7 @@ export default function HelpMessaging() {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/messagesTable1.PNG'
+                    src='https://docs.vueteams.com/_images/messagesTable1.PNG'
                     alt='markdown'
                     className='markdown-inline-img'
                 />
@@ -58,7 +58,7 @@ export default function HelpMessaging() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.messaging.emoji'
-                    defaultMessage={'**Quickly add emoji** by typing ":", which will open an emoji autocomplete. If the existing emoji don\'t cover what you want to express, you can also create your own [Custom Emoji](!http://docs.mattermost.com/help/settings/custom-emoji.html).'}
+                    defaultMessage={'**Quickly add emoji** by typing ":", which will open an emoji autocomplete. If the existing emoji don\'t cover what you want to express, you can also create your own [Custom Emoji](!http://docs..vueteams.com/help/settings/custom-emoji.html).'}
                 />
             </p>
             <p>

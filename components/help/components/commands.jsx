@@ -29,7 +29,7 @@ export default function HelpCommands() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.commands.intro2'
-                    defaultMessage='Built-in slash commands come with all Vue installations and custom slash commands are configurable to interact with external applications. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs.mattermost.com/developer/slash-commands.html).'
+                    defaultMessage='Built-in slash commands come with all Vue installations and custom slash commands are configurable to interact with external applications. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs..vueteams.com/developer/slash-commands.html).'
                 />
             </p>
 
@@ -49,14 +49,14 @@ export default function HelpCommands() {
 
             <p>
                 <img
-                    src='https://s3.amazonaws.com/images.mattermost.com/slashCommandsTable1.png'
+                    src='https://s3.amazonaws.com/images.vueteams.com/slashCommandsTable1.png'
                     alt='commands'
                     className='markdown-inline-img'
                 />
             </p>
             <p>
                 <img
-                    src='https://s3.amazonaws.com/images.mattermost.com/slashCommandsTable2.png'
+                    src='https://s3.amazonaws.com/images.vueteams.com/slashCommandsTable2.png'
                     alt='commands'
                     className='markdown-inline-img'
                 />
@@ -71,7 +71,7 @@ export default function HelpCommands() {
 
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/slashCommandsAutocomplete.PNG'
+                    src='https://docs.vueteams.com/_images/slashCommandsAutocomplete.PNG'
                     alt='autocomplete'
                     className='markdown-inline-img'
                 />
@@ -94,7 +94,7 @@ export default function HelpCommands() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.commands.custom2'
-                    defaultMessage='Custom slash commands are disabled by default and can be enabled by the System Admin in the **System Console** > **Integrations** > **Webhooks and Commands**. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs.mattermost.com/developer/slash-commands.html).'
+                    defaultMessage='Custom slash commands are disabled by default and can be enabled by the System Admin in the **System Console** > **Integrations** > **Webhooks and Commands**. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs..vueteams.com/developer/slash-commands.html).'
                 />
             </p>
 

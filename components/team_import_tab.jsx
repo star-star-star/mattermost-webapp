@@ -49,7 +49,7 @@ class TeamImportTab extends React.Component {
         const {formatMessage} = this.props.intl;
         const uploadDocsLink = (
             <a
-                href='https://docs.mattermost.com/administration/migrating.html#migrating-from-slack'
+                href='https://docs.vueteams.com/administration/migrating.html#migrating-from-slack'
                 target='_blank'
                 rel='noopener noreferrer'
             >
@@ -84,7 +84,7 @@ class TeamImportTab extends React.Component {
 
         const importCliLink = (
             <a
-                href='https://docs.mattermost.com/administration/migrating.html#migrating-from-slack-using-the-mattermost-cli'
+                href='https://docs.vueteams.com/administration/migrating.html#migrating-from-slack-using-the-mattermost-cli'
                 target='_blank'
                 rel='noopener noreferrer'
             >

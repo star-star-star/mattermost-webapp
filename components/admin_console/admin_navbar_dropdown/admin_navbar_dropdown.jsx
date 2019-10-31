@@ -87,15 +87,15 @@ export default class AdminNavbarDropdown extends React.Component {
                 </Menu.Group>
                 <Menu.Group>
                     <Menu.ItemExternalLink
-                        url='https://about.mattermost.com/administrators-guide/'
+                        url='https://about.vueteams.com/administrators-guide/'
                         text={Utils.localizeMessage('admin.nav.administratorsGuide', 'Administrator Guide')}
                     />
                     <Menu.ItemExternalLink
-                        url='https://about.mattermost.com/troubleshooting-forum/'
+                        url='https://about.vueteams.com/troubleshooting-forum/'
                         text={Utils.localizeMessage('admin.nav.troubleshootingForum', 'Troubleshooting Forum')}
                     />
                     <Menu.ItemExternalLink
-                        url='https://about.mattermost.com/commercial-support/'
+                        url='https://about.vueteams.com/commercial-support/'
                         text={Utils.localizeMessage('admin.nav.commercialSupport', 'Commercial Support')}
                     />
                     <Menu.ItemToggleModalRedux

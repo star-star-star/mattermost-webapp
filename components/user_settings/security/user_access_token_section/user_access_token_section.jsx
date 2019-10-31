@@ -401,7 +401,7 @@ export default class UserAccessTokenSection extends React.Component {
                 <span>
                     <FormattedMarkdownMessage
                         id='user.settings.tokens.description_mobile'
-                        defaultMessage='[Personal access tokens](!https://about.mattermost.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.mattermost.com/default-api-authentication). Create new tokens on your desktop.'
+                        defaultMessage='[Personal access tokens](!https://about.vueteams.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.vueteams.com/default-api-authentication). Create new tokens on your desktop.'
                     />
                 </span>
             );
@@ -410,7 +410,7 @@ export default class UserAccessTokenSection extends React.Component {
                 <span>
                     <FormattedMarkdownMessage
                         id='user.settings.tokens.description'
-                        defaultMessage='[Personal access tokens](!https://about.mattermost.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.mattermost.com/default-api-authentication).'
+                        defaultMessage='[Personal access tokens](!https://about.vueteams.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.vueteams.com/default-api-authentication).'
                     />
                 </span>
             );

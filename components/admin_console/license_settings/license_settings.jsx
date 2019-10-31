@@ -124,12 +124,12 @@ export default class LicenseSettings extends React.Component {
                     <a
                         rel='noopener noreferrer'
                         target='_blank'
-                        href='https://about.mattermost.com/enterprise-edition-terms/'
+                        href='https://about.vueteams.com/enterprise-edition-terms/'
                     >{'Enterprise Edition Terms of Service'}</a>{' and '}
                     <a
                         rel='noopener noreferrer'
                         target='_blank'
-                        href='https://about.mattermost.com/privacy/'
+                        href='https://about.vueteams.com/privacy/'
                     >{'Privacy Policy.'}</a>
                 </div>
             );

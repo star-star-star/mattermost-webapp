@@ -262,20 +262,20 @@ describe('formatWithRenderer | LinkOnlyRenderer', () => {
         },
         {
             description: 'link: link without a scheme',
-            inputText: 'Do you like www.mattermost.com?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
-            'www.mattermost.com</a>?',
+            inputText: 'Do you like www.vueteams.com?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.vueteams.com" target="_blank">' +
+            'www.vueteams.com</a>?',
         },
         {
             description: 'link: link with a scheme',
-            inputText: 'Do you like http://www.mattermost.com?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
-            'http://www.mattermost.com</a>?',
+            inputText: 'Do you like http://www.vueteams.com?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.vueteams.com" target="_blank">' +
+            'http://www.vueteams.com</a>?',
         },
         {
             description: 'link: link with a title',
-            inputText: 'Do you like [Vue](http://www.mattermost.com)?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
+            inputText: 'Do you like [Vue](http://www.vueteams.com)?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.vueteams.com" target="_blank">' +
             'Vue</a>?',
         },
         {

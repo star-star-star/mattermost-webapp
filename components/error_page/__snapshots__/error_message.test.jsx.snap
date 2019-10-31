@@ -95,7 +95,7 @@ exports[`components/error_page/ErrorMessage should match snapshot, oauth_missing
           "link": <ErrorLink
             defaultMessage="Google Apps"
             messageId="error.oauth_missing_code.google.link"
-            url="https://docs.mattermost.com/deployment/sso-google.html"
+            url="https://docs.vueteams.com/deployment/sso-google.html"
           />,
         }
       }
@@ -110,7 +110,7 @@ exports[`components/error_page/ErrorMessage should match snapshot, oauth_missing
           "link": <ErrorLink
             defaultMessage="Office 365"
             messageId="error.oauth_missing_code.office365.link"
-            url="https://docs.mattermost.com/deployment/sso-office.html"
+            url="https://docs.vueteams.com/deployment/sso-office.html"
           />,
         }
       }
@@ -125,7 +125,7 @@ exports[`components/error_page/ErrorMessage should match snapshot, oauth_missing
           "link": <ErrorLink
             defaultMessage="GitLab"
             messageId="error.oauth_missing_code.gitlab.link"
-            url="https://docs.mattermost.com/deployment/sso-gitlab.html"
+            url="https://docs.vueteams.com/deployment/sso-gitlab.html"
           />,
         }
       }
@@ -140,7 +140,7 @@ exports[`components/error_page/ErrorMessage should match snapshot, oauth_missing
           "link": <ErrorLink
             defaultMessage="Troubleshooting forum"
             messageId="error.oauth_missing_code.forum.link"
-            url="https://forum.mattermost.org/c/trouble-shoot"
+            url="https://forum.vueteams.com/c/trouble-shoot"
           />,
         }
       }

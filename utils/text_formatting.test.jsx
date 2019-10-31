@@ -134,24 +134,24 @@ describe('handleUnicodeEmoji', () => {
 describe('linkOnlyMarkdown', () => {
     const options = {markdown: false, renderer: new LinkOnlyRenderer()};
     test('link without a title', () => {
-        const text = 'Do you like https://www.mattermost.com?';
+        const text = 'Do you like https://www.vueteams.com?';
         const output = formatText(text, options);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.mattermost.com" target="_blank">' +
-            'https://www.mattermost.com</a>?');
+            'Do you like <a class="theme markdown__link" href="https://www.vueteams.com" target="_blank">' +
+            'https://www.vueteams.com</a>?');
     });
     test('link with a title', () => {
-        const text = 'Do you like [Vue](https://www.mattermost.com)?';
+        const text = 'Do you like [Vue](https://www.vueteams.com)?';
         const output = formatText(text, options);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.mattermost.com" target="_blank">' +
+            'Do you like <a class="theme markdown__link" href="https://www.vueteams.com" target="_blank">' +
             'Vue</a>?');
     });
     test('link with header signs to skip', () => {
-        const text = '#### Do you like [Vue](https://www.mattermost.com)?';
+        const text = '#### Do you like [Vue](https://www.vueteams.com)?';
         const output = formatText(text, options);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.mattermost.com" target="_blank">' +
+            'Do you like <a class="theme markdown__link" href="https://www.vueteams.com" target="_blank">' +
             'Vue</a>?');
     });
 });

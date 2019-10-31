@@ -11,12 +11,12 @@ import theme from '../fixtures/theme.json';
 // *****************************************************************************
 // Read more:
 // - https://on.cypress.io/custom-commands on writing Cypress commands
-// - https://api.mattermost.com/ for Vue API reference
+// - https://api.vueteams.com/ for Vue API reference
 // *****************************************************************************
 
 // *****************************************************************************
 // Authentication
-// https://api.mattermost.com/#tag/authentication
+// https://api.vueteams.com/#tag/authentication
 // *****************************************************************************
 
 /**
@@ -69,7 +69,7 @@ Cypress.Commands.add('apiLogout', () => {
 
 // *****************************************************************************
 // Channels
-// https://api.mattermost.com/#tag/channels
+// https://api.vueteams.com/#tag/channels
 // *****************************************************************************
 
 /**
@@ -207,7 +207,7 @@ Cypress.Commands.add('apiAddUserToChannel', (channelId, userId) => {
 
 // *****************************************************************************
 // Commands
-// https://api.mattermost.com/#tag/commands
+// https://api.vueteams.com/#tag/commands
 // *****************************************************************************
 
 /**
@@ -231,7 +231,7 @@ Cypress.Commands.add('apiCreateCommand', (command = {}) => {
 
 // *****************************************************************************
 // Teams
-// https://api.mattermost.com/#tag/teams
+// https://api.vueteams.com/#tag/teams
 // *****************************************************************************
 
 /**
@@ -352,7 +352,7 @@ Cypress.Commands.add('apiAddUsersToTeam', (teamId, teamMembers) => {
 
 // *****************************************************************************
 // Preferences
-// https://api.mattermost.com/#tag/preferences
+// https://api.vueteams.com/#tag/preferences
 // *****************************************************************************
 
 /**
@@ -443,7 +443,7 @@ Cypress.Commands.add('apiSaveThemePreference', (value = JSON.stringify(theme.def
 
 // *****************************************************************************
 // Users
-// https://api.mattermost.com/#tag/users
+// https://api.vueteams.com/#tag/users
 // *****************************************************************************
 
 Cypress.Commands.add('apiGetUserByEmail', (email) => {
@@ -494,7 +494,7 @@ Cypress.Commands.add('createNewUser', (user = {}, teamIds = [], bypassTutorial =
     const timestamp = Date.now();
 
     const {
-        email = `user${timestamp}@sample.mattermost.com`,
+        email = `user${timestamp}@sample.vueteams.com`,
         username = `user${timestamp}`,
         firstName = `First${timestamp}`,
         lastName = `Last${timestamp}`,
@@ -588,7 +588,7 @@ Cypress.Commands.add('apiUpdateUserStatus', (status = 'online') => {
 
 // *****************************************************************************
 // Posts
-// https://api.mattermost.com/#tag/posts
+// https://api.vueteams.com/#tag/posts
 // *****************************************************************************
 
 /**
@@ -606,7 +606,7 @@ Cypress.Commands.add('apiUnpinPosts', (postId) => {
 
 // *****************************************************************************
 // System config
-// https://api.mattermost.com/#tag/system
+// https://api.vueteams.com/#tag/system
 // *****************************************************************************
 
 Cypress.Commands.add('apiUpdateConfig', (newSettings = {}) => {
@@ -642,7 +642,7 @@ Cypress.Commands.add('apiGetConfig', () => {
 
 // *****************************************************************************
 // Webhooks
-// https://api.mattermost.com/#tag/webhooks
+// https://api.vueteams.com/#tag/webhooks
 // *****************************************************************************
 
 Cypress.Commands.add('apiCreateWebhook', (hook = {}, isIncoming = true) => {

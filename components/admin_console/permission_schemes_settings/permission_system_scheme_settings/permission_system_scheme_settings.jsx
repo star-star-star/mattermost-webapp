@@ -310,7 +310,7 @@ export default class PermissionSystemSchemeSettings extends React.Component {
                                 <span>
                                     <FormattedMarkdownMessage
                                         id='admin.permissions.systemScheme.introBanner'
-                                        defaultMessage='Configure the default permissions for Team Admins, Channel Admins and other members. This scheme is inherited by all teams unless a [Team Override Scheme](!https://about.mattermost.com/default-team-override-scheme) is applied in specific teams.'
+                                        defaultMessage='Configure the default permissions for Team Admins, Channel Admins and other members. This scheme is inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied in specific teams.'
                                     />
                                 </span>
                             </div>

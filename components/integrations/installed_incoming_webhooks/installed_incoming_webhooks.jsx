@@ -165,7 +165,7 @@ export default class InstalledIncomingWebhooks extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='http://docs.mattermost.com/developer/webhooks-incoming.html'
+                                    href='http://docs..vueteams.com/developer/webhooks-incoming.html'
                                 >
                                     <FormattedMessage
                                         id='installed_incoming_webhooks.help.buildYourOwn'
@@ -177,7 +177,7 @@ export default class InstalledIncomingWebhooks extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://about.mattermost.com/default-app-directory/'
+                                    href='https://about.vueteams.com/default-app-directory/'
                                 >
                                     <FormattedMessage
                                         id='installed_incoming_webhooks.help.appDirectory'

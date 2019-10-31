@@ -156,7 +156,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-github.PNG'
+                    src='https://docs.vueteams.com/_images/syntax-highlighting-github.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -169,7 +169,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-sol-dark.PNG'
+                    src='https://docs.vueteams.com/_images/syntax-highlighting-sol-dark.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -182,7 +182,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-sol-light.PNG'
+                    src='https://docs.vueteams.com/_images/syntax-highlighting-sol-light.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -195,7 +195,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-monokai.PNG'
+                    src='https://docs.vueteams.com/_images/syntax-highlighting-monokai.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -235,7 +235,7 @@ export default function HelpFormatting() {
             </p>
             <FormattedMessage
                 id='help.formatting.linkEx'
-                defaultMessage={'[Check out Vue!](https://about.mattermost.com/)'}
+                defaultMessage={'[Check out Vue!](https://about.vueteams.com/)'}
             >
                 {(example) => (
                     <div>
@@ -277,7 +277,7 @@ export default function HelpFormatting() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.formatting.emojis.description'
-                    defaultMessage={'Open the emoji autocomplete by typing `:`. A full list of emojis can be found [here](!http://www.emoji-cheat-sheet.com/). It is also possible to create your own [Custom Emoji](!http://docs.mattermost.com/help/settings/custom-emoji.html) if the emoji you want to use doesn\'t exist.'}
+                    defaultMessage={'Open the emoji autocomplete by typing `:`. A full list of emojis can be found [here](!http://www.emoji-cheat-sheet.com/). It is also possible to create your own [Custom Emoji](!http://docs..vueteams.com/help/settings/custom-emoji.html) if the emoji you want to use doesn\'t exist.'}
                 />
             </p>
             {renderRawExampleWithResult(':smile: :+1: :sheep:')}

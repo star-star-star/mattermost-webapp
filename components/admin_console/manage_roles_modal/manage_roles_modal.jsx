@@ -177,7 +177,7 @@ export default class ManageRolesModal extends React.PureComponent {
                     <p>
                         <FormattedMarkdownMessage
                             id='admin.manage_roles.additionalRoles'
-                            defaultMessage='Select additional permissions for the account. [Read more about roles and permissions](!https://about.mattermost.com/default-permissions).'
+                            defaultMessage='Select additional permissions for the account. [Read more about roles and permissions](!https://about.vueteams.com/default-permissions).'
                         />
                     </p>
                     <div className='checkbox'>
@@ -250,7 +250,7 @@ export default class ManageRolesModal extends React.PureComponent {
                                 />
                                 <FormattedMarkdownMessage
                                     id='admin.manage_roles.allowUserAccessTokens'
-                                    defaultMessage='Allow this account to generate [personal access tokens](!https://about.mattermost.com/default-user-access-tokens).'
+                                    defaultMessage='Allow this account to generate [personal access tokens](!https://about.vueteams.com/default-user-access-tokens).'
                                 />
                                 <span className='d-block padding-top padding-bottom light'>
                                     <FormattedHTMLMessage

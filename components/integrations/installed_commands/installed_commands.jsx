@@ -136,7 +136,7 @@ export default class InstalledCommands extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='http://docs.mattermost.com/developer/slash-commands.html'
+                                    href='http://docs..vueteams.com/developer/slash-commands.html'
                                 >
                                     <FormattedMessage
                                         id='installed_commands.help.buildYourOwn'
@@ -148,7 +148,7 @@ export default class InstalledCommands extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://about.mattermost.com/default-app-directory/'
+                                    href='https://about.vueteams.com/default-app-directory/'
                                 >
                                     <FormattedMessage
                                         id='installed_commands.help.appDirectory'

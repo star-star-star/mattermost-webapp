@@ -137,7 +137,7 @@ export default class InstalledOAuthApps extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://docs.mattermost.com/developer/oauth-2-0-applications.html'
+                                    href='https://docs.vueteams.com/developer/oauth-2-0-applications.html'
                                 >
                                     <FormattedMessage
                                         id='installed_oauth_apps.help.oauthApplications'
@@ -149,7 +149,7 @@ export default class InstalledOAuthApps extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://about.mattermost.com/default-app-directory/'
+                                    href='https://about.vueteams.com/default-app-directory/'
                                 >
                                     <FormattedMessage
                                         id='installed_oauth_apps.help.appDirectory'

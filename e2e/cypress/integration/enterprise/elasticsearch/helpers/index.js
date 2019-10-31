@@ -8,7 +8,7 @@ module.exports = {
         return string + '-' + timestamp;
     },
     createEmail: (name, timestamp) => {
-        return name + timestamp + '@sample.mattermost.com';
+        return name + timestamp + '@sample.vueteams.com';
     },
     enableElasticSearch: () => {
         // Enabled elastic search via the API

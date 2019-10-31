@@ -145,7 +145,7 @@ exports[`components/integrations/InstalledOutgoingWebhooks should match snapshot
       values={
         Object {
           "appDirectory": <a
-            href="https://about.mattermost.com/default-app-directory/"
+            href="https://about.vueteams.com/default-app-directory/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -156,7 +156,7 @@ exports[`components/integrations/InstalledOutgoingWebhooks should match snapshot
             />
           </a>,
           "buildYourOwn": <a
-            href="http://docs.mattermost.com/developer/webhooks-outgoing.html"
+            href="http://docs..vueteams.com/developer/webhooks-outgoing.html"
             rel="noopener noreferrer"
             target="_blank"
           >
