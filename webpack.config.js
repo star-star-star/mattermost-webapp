@@ -192,7 +192,7 @@ var config = {
                 ],
             },
             {
-                test: /\.(png|eot|tiff|svg|woff2|woff|ttf|gif|mp3|jpg)$/,
+                test: /\.(png|eot|otf|tiff|svg|woff2|woff|ttf|gif|mp3|jpg)$/,
                 use: [
                     {
                         loader: 'file-loader',
@@ -228,7 +228,7 @@ var config = {
             jquery: 'jquery/src/jquery',
             superagent: 'node_modules/superagent/lib/client',
         },
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     },
     performance: {
         hints: 'warning',
