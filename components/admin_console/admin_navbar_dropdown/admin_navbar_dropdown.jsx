@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -87,21 +87,21 @@ export default class AdminNavbarDropdown extends React.Component {
                 </Menu.Group>
                 <Menu.Group>
                     <Menu.ItemExternalLink
-                        url='https://about.vueteams.com/administrators-guide/'
+                        url='https://about.NeoAi.com/administrators-guide/'
                         text={Utils.localizeMessage('admin.nav.administratorsGuide', 'Administrator Guide')}
                     />
                     <Menu.ItemExternalLink
-                        url='https://about.vueteams.com/troubleshooting-forum/'
+                        url='https://about.NeoAi.com/troubleshooting-forum/'
                         text={Utils.localizeMessage('admin.nav.troubleshootingForum', 'Troubleshooting Forum')}
                     />
                     <Menu.ItemExternalLink
-                        url='https://about.vueteams.com/commercial-support/'
+                        url='https://about.NeoAi.com/commercial-support/'
                         text={Utils.localizeMessage('admin.nav.commercialSupport', 'Commercial Support')}
                     />
                     <Menu.ItemToggleModalRedux
                         modalId={ModalIdentifiers.ABOUT}
                         dialogType={AboutBuildModal}
-                        text={formatMessage({id: 'navbar_dropdown.about', defaultMessage: 'About {appTitle}'}, {appTitle: siteName || 'Vue'})}
+                        text={formatMessage({id: 'navbar_dropdown.about', defaultMessage: 'About {appTitle}'}, {appTitle: siteName || 'Neo Ai'})}
                     />
                 </Menu.Group>
                 <Menu.Group>

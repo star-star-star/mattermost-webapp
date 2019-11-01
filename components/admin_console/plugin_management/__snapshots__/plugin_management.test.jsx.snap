@@ -38,7 +38,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -114,7 +114,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -194,7 +194,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -324,7 +324,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Plugins
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -404,7 +404,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Plugins
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -492,7 +492,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -568,7 +568,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -648,7 +648,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -741,7 +741,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -817,7 +817,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -897,7 +897,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -985,7 +985,7 @@ exports[`components/PluginManagement should match snapshot, disabled 1`] = `
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -1061,7 +1061,7 @@ exports[`components/PluginManagement should match snapshot, disabled 1`] = `
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="To enable plugins, set **Enable Plugins** to true. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="To enable plugins, set **Enable Plugins** to true. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadAndPluginDisabledDesc"
                 />
               </p>
@@ -1202,7 +1202,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -1278,7 +1278,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -1358,7 +1358,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -1446,7 +1446,7 @@ exports[`components/PluginManagement should match snapshot, upload disabled 1`] 
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -1522,7 +1522,7 @@ exports[`components/PluginManagement should match snapshot, upload disabled 1`] 
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Enable plugin uploads in config.json. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Enable plugin uploads in config.json. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDisabledDesc"
                 />
               </p>
@@ -1602,7 +1602,7 @@ exports[`components/PluginManagement should match snapshot, upload disabled 1`] 
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -1690,7 +1690,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -1766,7 +1766,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -1846,7 +1846,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -1997,7 +1997,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -2073,7 +2073,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -2153,7 +2153,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -2272,7 +2272,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -2348,7 +2348,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -2428,7 +2428,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -2547,7 +2547,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -2623,7 +2623,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -2703,7 +2703,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />
@@ -2822,7 +2822,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <InjectIntl(FormattedMarkdownMessage)
-                defaultMessage="When true, enables plugins on your Vue server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Vue server. See [documentation](https://about.vueteams.com/default-plugin-uploads) to learn more."
+                defaultMessage="When true, enables plugins on your Neo Ai server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Neo Ai server. See [documentation](https://about.NeoAi.com/default-plugin-uploads) to learn more."
                 id="admin.plugins.settings.enableDesc"
               />
             }
@@ -2898,7 +2898,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <InjectIntl(FormattedMarkdownMessage)
-                  defaultMessage="Upload a plugin for your Vue server. See [documentation](!https://about.vueteams.com/default-plugin-uploads) to learn more."
+                  defaultMessage="Upload a plugin for your Neo Ai server. See [documentation](!https://about.NeoAi.com/default-plugin-uploads) to learn more."
                   id="admin.plugin.uploadDesc"
                 />
               </p>
@@ -2978,7 +2978,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <FormattedHTMLMessage
-                  defaultMessage="Installed plugins on your Vue server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
+                  defaultMessage="Installed plugins on your Neo Ai server. Pre-packaged plugins are installed by default, and can be disabled but not removed."
                   id="admin.plugin.installedDesc"
                   values={Object {}}
                 />

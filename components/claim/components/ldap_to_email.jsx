@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -141,7 +141,7 @@ export default class LDAPToEmail extends React.Component {
                     <p>
                         <FormattedMessage
                             id='claim.ldap_to_email.email'
-                            defaultMessage='After switching your authentication method, you will use {email} to login. Your AD/LDAP credentials will no longer allow access to Vue.'
+                            defaultMessage='After switching your authentication method, you will use {email} to login. Your AD/LDAP credentials will no longer allow access to Neo Ai.'
                             values={{
                                 email: this.props.email,
                             }}

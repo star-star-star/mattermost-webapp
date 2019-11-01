@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {
@@ -663,7 +663,7 @@ describe('handlePluginEnabled/handlePluginDisabled', () => {
     describe('handlePluginDisabled', () => {
         const baseManifest = {
             name: 'Demo Plugin',
-            description: 'This plugin demonstrates the capabilities of a Vue plugin.',
+            description: 'This plugin demonstrates the capabilities of a Neo Ai plugin.',
             version: '0.2.0',
             min_server_version: '5.12.0',
             server: {

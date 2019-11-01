@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -111,7 +111,7 @@ export default class TeamUrl extends React.PureComponent {
                 this.setState({nameError: (
                     <FormattedMarkdownMessage
                         id='create_team.team_url.taken'
-                        defaultMessage='This URL [starts with a reserved word](!https://docs.vueteams.com/help/getting-started/creating-teams.html#team-url) or is unavailable. Please try another.'
+                        defaultMessage='This URL [starts with a reserved word](!https://docs.NeoAi.com/help/getting-started/creating-teams.html#team-url) or is unavailable. Please try another.'
                     />),
                 });
                 return;

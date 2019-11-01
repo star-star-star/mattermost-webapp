@@ -2,21 +2,21 @@
     "sysadmin": {
         "username": "sysadmin",
         "password": "Sys@dmin-sample1",
-        "email": "sysadmin@sample.vueteams.com",
+        "email": "sysadmin@sample.NeoAi.com",
         "firstName": "Kenneth",
         "lastName": "Moreno"
     },
     "user-1": {
         "username": "user-1",
         "password": "SampleUs@r-1",
-        "email": "user-1@sample.vueteams.com",
+        "email": "user-1@sample.NeoAi.com",
         "firstName": "Victor",
         "lastName": "Welch"
     },
     "user-2": {
         "username": "samuel.tucker",
         "password": "SampleUs@r-2",
-        "email": "user-2@sample.vueteams.com",
+        "email": "user-2@sample.NeoAi.com",
         "emailname": "user-2",
         "firstName": "Samuel",
         "lastName": "Tucker"

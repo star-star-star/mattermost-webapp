@@ -31,7 +31,7 @@ exports[`components/MessageExportSettings should match snapshot, disabled, actia
         }
         helpText={
           <InjectIntl(FormattedMarkdownMessage)
-            defaultMessage="When true, Vue will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.vueteams.com/default-compliance-export-documentation) to learn more."
+            defaultMessage="When true, Neo Ai will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.NeoAi.com/default-compliance-export-documentation) to learn more."
             id="admin.service.complianceExportDesc"
           />
         }
@@ -208,7 +208,7 @@ exports[`components/MessageExportSettings should match snapshot, disabled, globa
         }
         helpText={
           <InjectIntl(FormattedMarkdownMessage)
-            defaultMessage="When true, Vue will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.vueteams.com/default-compliance-export-documentation) to learn more."
+            defaultMessage="When true, Neo Ai will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.NeoAi.com/default-compliance-export-documentation) to learn more."
             id="admin.service.complianceExportDesc"
           />
         }
@@ -490,7 +490,7 @@ exports[`components/MessageExportSettings should match snapshot, enabled, actian
         }
         helpText={
           <InjectIntl(FormattedMarkdownMessage)
-            defaultMessage="When true, Vue will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.vueteams.com/default-compliance-export-documentation) to learn more."
+            defaultMessage="When true, Neo Ai will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.NeoAi.com/default-compliance-export-documentation) to learn more."
             id="admin.service.complianceExportDesc"
           />
         }
@@ -667,7 +667,7 @@ exports[`components/MessageExportSettings should match snapshot, enabled, global
         }
         helpText={
           <InjectIntl(FormattedMarkdownMessage)
-            defaultMessage="When true, Vue will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.vueteams.com/default-compliance-export-documentation) to learn more."
+            defaultMessage="When true, Neo Ai will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.NeoAi.com/default-compliance-export-documentation) to learn more."
             id="admin.service.complianceExportDesc"
           />
         }

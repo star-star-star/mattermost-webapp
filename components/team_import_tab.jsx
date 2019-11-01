@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -49,7 +49,7 @@ class TeamImportTab extends React.Component {
         const {formatMessage} = this.props.intl;
         const uploadDocsLink = (
             <a
-                href='https://docs.vueteams.com/administration/migrating.html#migrating-from-slack'
+                href='https://docs.NeoAi.com/administration/migrating.html#migrating-from-slack'
                 target='_blank'
                 rel='noopener noreferrer'
             >
@@ -84,7 +84,7 @@ class TeamImportTab extends React.Component {
 
         const importCliLink = (
             <a
-                href='https://docs.vueteams.com/administration/migrating.html#migrating-from-slack-using-the-mattermost-cli'
+                href='https://docs.NeoAi.com/administration/migrating.html#migrating-from-slack-using-the-mattermost-cli'
                 target='_blank'
                 rel='noopener noreferrer'
             >
@@ -100,7 +100,7 @@ class TeamImportTab extends React.Component {
                 <p>
                     <FormattedMessage
                         id='team_import_tab.importHelpLine1'
-                        defaultMessage="Slack import to Vue supports importing of messages in your Slack team's public channels."
+                        defaultMessage="Slack import to Neo Ai supports importing of messages in your Slack team's public channels."
                     />
                 </p>
                 <p>

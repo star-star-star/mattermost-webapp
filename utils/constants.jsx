@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 /* eslint-disable no-magic-numbers */
@@ -823,7 +823,7 @@ export const Constants = {
     EMOJI_PICKER_WIDTH_OFFSET: 295,
     THEMES: {
         default: {
-            type: 'Vue',
+            type: 'Neo Ai',
             sidebarBg: '#145dbf',
             sidebarText: '#ffffff',
             sidebarUnreadText: '#ffffff',
@@ -877,7 +877,7 @@ export const Constants = {
             image: defaultThemeImage,
         },
         mattermostDark: {
-            type: 'Vue Dark',
+            type: 'Neo Ai Dark',
             sidebarBg: '#1b2c3e',
             sidebarText: '#ffffff',
             sidebarUnreadText: '#ffffff',
@@ -1295,8 +1295,8 @@ export const Constants = {
     EMOJI_PATH: '/static/emoji',
     RECENT_EMOJI_KEY: 'recentEmojis',
     DEFAULT_WEBHOOK_LOGO: logoWebhook,
-    MHPNS: 'https://push.vueteams.com',
-    MTPNS: 'https://push-test.vueteams.com',
+    MHPNS: 'https://push.NeoAi.com',
+    MTPNS: 'https://push-test.NeoAi.com',
     MAX_PREV_MSGS: 100,
     POST_COLLAPSE_TIMEOUT: 1000 * 60 * 5, // five minutes
     PERMISSIONS_ALL: 'all',

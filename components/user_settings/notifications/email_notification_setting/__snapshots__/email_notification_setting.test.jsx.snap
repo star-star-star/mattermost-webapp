@@ -45,7 +45,7 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
   saving={false}
   sendEmailNotifications={true}
   serverError=""
-  siteName="Vue"
+  siteName="Neo Ai"
   updateSection={[MockFunction]}
 >
   <SettingItemMax
@@ -111,7 +111,7 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
               id="user.settings.notifications.emailInfo"
               values={
                 Object {
-                  "siteName": "Vue",
+                  "siteName": "Neo Ai",
                 }
               }
             />
@@ -220,12 +220,12 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
                   id="user.settings.notifications.emailInfo"
                   values={
                     Object {
-                      "siteName": "Vue",
+                      "siteName": "Neo Ai",
                     }
                   }
                 >
                   <span>
-                    Email notifications are sent for mentions and direct messages when you are offline or away from Vue for more than 5 minutes.
+                    Email notifications are sent for mentions and direct messages when you are offline or away from Neo Ai for more than 5 minutes.
                   </span>
                 </FormattedMessage>
                  
@@ -373,7 +373,7 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
   saving={false}
   sendEmailNotifications={true}
   serverError=""
-  siteName="Vue"
+  siteName="Neo Ai"
   updateSection={[MockFunction]}
 >
   <SettingItemMax
@@ -485,7 +485,7 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
               id="user.settings.notifications.emailInfo"
               values={
                 Object {
-                  "siteName": "Vue",
+                  "siteName": "Neo Ai",
                 }
               }
             />
@@ -653,12 +653,12 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
                   id="user.settings.notifications.emailInfo"
                   values={
                     Object {
-                      "siteName": "Vue",
+                      "siteName": "Neo Ai",
                     }
                   }
                 >
                   <span>
-                    Email notifications are sent for mentions and direct messages when you are offline or away from Vue for more than 5 minutes.
+                    Email notifications are sent for mentions and direct messages when you are offline or away from Neo Ai for more than 5 minutes.
                   </span>
                 </FormattedMessage>
                  
@@ -814,7 +814,7 @@ exports[`components/user_settings/notifications/EmailNotificationSetting should 
             id="user.settings.notifications.emailInfo"
             values={
               Object {
-                "siteName": "Vue",
+                "siteName": "Neo Ai",
               }
             }
           />

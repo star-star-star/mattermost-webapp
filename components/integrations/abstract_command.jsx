@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -436,7 +436,7 @@ export default class AbstractCommand extends React.PureComponent {
                                         values={{
                                             link: (
                                                 <a
-                                                    href='https://docs.vueteams.com/help/messaging/executing-commands.html#built-in-commands'
+                                                    href='https://docs.NeoAi.com/help/messaging/executing-commands.html#built-in-commands'
                                                     target='_blank'
                                                     rel='noopener noreferrer'
                                                 >

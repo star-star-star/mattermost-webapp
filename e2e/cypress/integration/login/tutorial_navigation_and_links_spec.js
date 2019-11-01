@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -7,7 +7,7 @@
 // - Use element ID when selecting an element. Create one if none.
 // ***************************************************************
 
-const appDownloadLink = 'https://about.vueteams.com/downloads/';
+const appDownloadLink = 'https://about.NeoAi.com/downloads/';
 
 describe('Test Tutorial Navigation', () => {
     before(() => {
@@ -100,7 +100,7 @@ describe('Test Tutorial Navigation', () => {
 function checkStepOne() {
     cy.get('#tutorialIntroContent').should('be.visible').
         and('contain', 'Welcome to:').
-        and('contain', 'Vue').
+        and('contain', 'Neo Ai').
         and('contain', 'Your team communication all in one place, instantly searchable and available anywhere.').
         and('contain', 'Keep your team connected to help them achieve what matters most.');
 

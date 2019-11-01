@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -14,7 +14,7 @@ describe('components/GetAndroidApp', () => {
     test('should match snapshot', () => {
         const wrapper = shallow(
             <GetAndroidApp
-                androidAppDownloadLink={'https://about.vueteams.com/mattermost-android-app'}
+                androidAppDownloadLink={'https://about.NeoAi.com/mattermost-android-app'}
             />
         );
         expect(wrapper).toMatchSnapshot();
@@ -23,19 +23,19 @@ describe('components/GetAndroidApp', () => {
     test('should contain the download link', () => {
         const wrapper = shallow(
             <GetAndroidApp
-                androidAppDownloadLink={'https://about.vueteams.com/mattermost-android-app'}
+                androidAppDownloadLink={'https://about.NeoAi.com/mattermost-android-app'}
             />
         );
 
         const link = wrapper.find('.get-android-app__app-store-link');
-        expect(link.prop('href')).toEqual('https://about.vueteams.com/mattermost-android-app');
+        expect(link.prop('href')).toEqual('https://about.NeoAi.com/mattermost-android-app');
     });
 
     test('should redirect if the user chooses to stay in the browser. Redirect url param is present', () => {
         const push = jest.fn();
         const wrapper = mountWithIntl(
             <GetAndroidApp
-                androidAppDownloadLink={'https://about.vueteams.com/mattermost-android-app'}
+                androidAppDownloadLink={'https://about.NeoAi.com/mattermost-android-app'}
                 history={{push}}
                 location={{search: '?redirect_to=last_page'}}
             />
@@ -51,7 +51,7 @@ describe('components/GetAndroidApp', () => {
         const push = jest.fn();
         const wrapper = mountWithIntl(
             <GetAndroidApp
-                androidAppDownloadLink={'https://about.vueteams.com/mattermost-android-app'}
+                androidAppDownloadLink={'https://about.NeoAi.com/mattermost-android-app'}
                 history={{push}}
                 location={{search: ''}}
             />

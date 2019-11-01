@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {Client4} from 'mattermost-redux/client';
@@ -62,7 +62,7 @@ export function measure(name1, name2) {
         return [-1, ''];
     }
 
-    const displayPrefix = '🐐 Vue: ';
+    const displayPrefix = '🐐 Neo Ai: ';
     const measurementName = `${displayPrefix}${name1} - ${name2}`;
     performance.measure(measurementName, name1, name2);
     const lastDuration = mostRecentDurationByEntryName(measurementName);

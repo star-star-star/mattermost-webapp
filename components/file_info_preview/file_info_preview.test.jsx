@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -10,7 +10,7 @@ describe('components/FileInfoPreview', () => {
     test('should match snapshot, can download files', () => {
         const wrapper = shallow(
             <FileInfoPreview
-                fileUrl='https://pre-release.vueteams.com/api/v4/files/rqir81f7a7ft8m6j6ej7g1txuo'
+                fileUrl='https://pre-release.NeoAi.com/api/v4/files/rqir81f7a7ft8m6j6ej7g1txuo'
                 fileInfo={{name: 'Test Image', size: 100, extension: 'jpg'}}
                 canDownloadFiles={true}
             />
@@ -22,7 +22,7 @@ describe('components/FileInfoPreview', () => {
     test('should match snapshot, cannot download files', () => {
         const wrapper = shallow(
             <FileInfoPreview
-                fileUrl='https://pre-release.vueteams.com/api/v4/files/aasf9afshaskj1asf91jasf0a0'
+                fileUrl='https://pre-release.NeoAi.com/api/v4/files/aasf9afshaskj1asf91jasf0a0'
                 fileInfo={{name: 'Test Image 2', size: 200, extension: 'png'}}
                 canDownloadFiles={false}
             />

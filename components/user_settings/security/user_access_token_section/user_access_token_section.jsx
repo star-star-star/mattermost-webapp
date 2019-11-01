@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -230,7 +230,7 @@ export default class UserAccessTokenSection extends React.Component {
                 <div className='alert alert-danger'>
                     <FormattedMarkdownMessage
                         id='user.settings.tokens.confirmDeleteMessage'
-                        defaultMessage='Any integrations using this token will no longer be able to access the Vue API. You cannot undo this action. \n \nAre you sure want to delete the **{description}** token?'
+                        defaultMessage='Any integrations using this token will no longer be able to access the Neo Ai API. You cannot undo this action. \n \nAre you sure want to delete the **{description}** token?'
                         values={{
                             description: token.description,
                         }}
@@ -401,7 +401,7 @@ export default class UserAccessTokenSection extends React.Component {
                 <span>
                     <FormattedMarkdownMessage
                         id='user.settings.tokens.description_mobile'
-                        defaultMessage='[Personal access tokens](!https://about.vueteams.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.vueteams.com/default-api-authentication). Create new tokens on your desktop.'
+                        defaultMessage='[Personal access tokens](!https://about.NeoAi.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.NeoAi.com/default-api-authentication). Create new tokens on your desktop.'
                     />
                 </span>
             );
@@ -410,7 +410,7 @@ export default class UserAccessTokenSection extends React.Component {
                 <span>
                     <FormattedMarkdownMessage
                         id='user.settings.tokens.description'
-                        defaultMessage='[Personal access tokens](!https://about.vueteams.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.vueteams.com/default-api-authentication).'
+                        defaultMessage='[Personal access tokens](!https://about.NeoAi.com/default-user-access-tokens) function similarly to session tokens and can be used by integrations to [authenticate against the REST API](!https://about.NeoAi.com/default-api-authentication).'
                     />
                 </span>
             );

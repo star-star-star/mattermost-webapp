@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -26,7 +26,7 @@ export default function GetIosApp({iosAppDownloadLink, history, location}) {
             <h1 className='get-app__header'>
                 <FormattedMessage
                     id='get_app.iosHeader'
-                    defaultMessage='Vue works best if you switch to our iPhone app'
+                    defaultMessage='Neo Ai works best if you switch to our iPhone app'
                 />
             </h1>
             <hr/>
@@ -56,8 +56,8 @@ export default function GetIosApp({iosAppDownloadLink, history, location}) {
                 href='mattermost://'
             >
                 <FormattedMessage
-                    id='get_app.openVue'
-                    defaultMessage='Open Vue'
+                    id='get_app.openNeo Ai'
+                    defaultMessage='Open Neo Ai'
                 />
             </a>
             <span className='get-app__continue-with-browser'>

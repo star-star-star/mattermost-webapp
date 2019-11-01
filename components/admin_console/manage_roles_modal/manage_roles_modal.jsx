@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -177,7 +177,7 @@ export default class ManageRolesModal extends React.PureComponent {
                     <p>
                         <FormattedMarkdownMessage
                             id='admin.manage_roles.additionalRoles'
-                            defaultMessage='Select additional permissions for the account. [Read more about roles and permissions](!https://about.vueteams.com/default-permissions).'
+                            defaultMessage='Select additional permissions for the account. [Read more about roles and permissions](!https://about.NeoAi.com/default-permissions).'
                         />
                     </p>
                     <div className='checkbox'>
@@ -197,7 +197,7 @@ export default class ManageRolesModal extends React.PureComponent {
                             </strong>
                             <FormattedMessage
                                 id='admin.manage_roles.postAllRole'
-                                defaultMessage='Access to post to all Vue channels including direct messages.'
+                                defaultMessage='Access to post to all Neo Ai channels including direct messages.'
                             />
                         </label>
                     </div>
@@ -218,7 +218,7 @@ export default class ManageRolesModal extends React.PureComponent {
                             </strong>
                             <FormattedMessage
                                 id='admin.manage_roles.postAllPublicRole'
-                                defaultMessage='Access to post to all Vue public channels.'
+                                defaultMessage='Access to post to all Neo Ai public channels.'
                             />
                         </label>
                     </div>
@@ -250,7 +250,7 @@ export default class ManageRolesModal extends React.PureComponent {
                                 />
                                 <FormattedMarkdownMessage
                                     id='admin.manage_roles.allowUserAccessTokens'
-                                    defaultMessage='Allow this account to generate [personal access tokens](!https://about.vueteams.com/default-user-access-tokens).'
+                                    defaultMessage='Allow this account to generate [personal access tokens](!https://about.NeoAi.com/default-user-access-tokens).'
                                 />
                                 <span className='d-block padding-top padding-bottom light'>
                                     <FormattedHTMLMessage

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -175,7 +175,7 @@ export default class ManageLanguage extends React.Component {
                     <br/>
                     <FormattedMarkdownMessage
                         id='user.settings.languages.promote'
-                        defaultMessage='Select which language Vue displays in the user interface.\n \nWould you like to help with translations? Join the [Vue Translation Server](!http://translate.vueteams.com/) to contribute.'
+                        defaultMessage='Select which language Neo Ai displays in the user interface.\n \nWould you like to help with translations? Join the [Neo Ai Translation Server](!http://translate.NeoAi.com/) to contribute.'
                     />
                 </div>
             </div>

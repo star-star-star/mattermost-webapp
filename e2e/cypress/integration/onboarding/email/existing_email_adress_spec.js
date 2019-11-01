@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {getRandomInt} from '../../../utils';
@@ -19,7 +19,7 @@ function signupWithEmail(name, pw) {
     cy.get('#signup').click();
 
     // # Type email address (by adding the uniqueUserId in the email address)
-    cy.get('#email').type('unique.' + uniqueUserId + '@sample.vueteams.com');
+    cy.get('#email').type('unique.' + uniqueUserId + '@sample.NeoAi.com');
 
     // # Type 'unique-1' for username
     cy.get('#name').type(name);

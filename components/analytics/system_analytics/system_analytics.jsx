@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -61,7 +61,7 @@ export default class SystemAnalytics extends React.PureComponent {
                     <div className='banner__content'>
                         <FormattedMarkdownMessage
                             id='analytics.system.skippedIntensiveQueries'
-                            defaultMessage='To maximize performance, some statistics are disabled. You can [re-enable them in config.json](!https://docs.vueteams.com/administration/statistics.html).'
+                            defaultMessage='To maximize performance, some statistics are disabled. You can [re-enable them in config.json](!https://docs.NeoAi.com/administration/statistics.html).'
                         />
                     </div>
                 </div>

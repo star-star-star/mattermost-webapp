@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 import React from 'react';
 import {shallow} from 'enzyme';
@@ -121,7 +121,7 @@ describe('/components/create_team/components/display_name', () => {
         wrapper.find('button').simulate('click', {preventDefault: () => jest.fn()});
         expect(wrapper.state('nameError')).toEqual(
             <FormattedMarkdownMessage
-                defaultMessage='This URL [starts with a reserved word](!https://docs.vueteams.com/help/getting-started/creating-teams.html#team-url) or is unavailable. Please try another.'
+                defaultMessage='This URL [starts with a reserved word](!https://docs.NeoAi.com/help/getting-started/creating-teams.html#team-url) or is unavailable. Please try another.'
                 id='create_team.team_url.taken'
             />
         );

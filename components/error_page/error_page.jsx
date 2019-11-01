@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import crypto from 'crypto';
@@ -59,7 +59,7 @@ export default class ErrorPage extends React.PureComponent {
                 <Link to={returnTo}>
                     <FormattedMessage
                         id='error.generic.link'
-                        defaultMessage='Back to Vue'
+                        defaultMessage='Back to Neo Ai'
                     />
                 </Link>
             );

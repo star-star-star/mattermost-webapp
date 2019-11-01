@@ -27,7 +27,7 @@ exports[`components/admin_console/group_settings/GroupSettings should match snap
         >
           <InjectIntl(FormattedMarkdownMessage)
             defaultMessage="Groups are a way to organize users and apply actions to all users within that group.
-For more information on Groups, please see [documentation](!https://www.vueteams.com/default-ad-ldap-groups)."
+For more information on Groups, please see [documentation](!https://www.NeoAi.com/default-ad-ldap-groups)."
             id="admin.group_settings.introBanner"
           />
         </div>
@@ -35,7 +35,7 @@ For more information on Groups, please see [documentation](!https://www.vueteams
       <AdminPanel
         className=""
         id="ldap_groups"
-        subtitleDefault="Link and configure groups from your AD/LDAP to Vue. Please ensure you have configured a [group filter](http://localhost:8065/admin_console/authentication/ldap)."
+        subtitleDefault="Link and configure groups from your AD/LDAP to Neo Ai. Please ensure you have configured a [group filter](http://localhost:8065/admin_console/authentication/ldap)."
         subtitleId="admin.group_settings.ldapGroupsDescription"
         subtitleValues={
           Object {

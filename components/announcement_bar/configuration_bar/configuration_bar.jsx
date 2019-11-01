@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -16,7 +16,7 @@ import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import AnnouncementBar from '../announcement_bar.jsx';
 import TextDismissableBar from '../text_dismissable_bar';
 
-const RENEWAL_LINK = 'https://licensing.vueteams.com/renew';
+const RENEWAL_LINK = 'https://licensing.NeoAi.com/renew';
 
 export default class ConfigurationAnnouncementBar extends React.PureComponent {
     static propTypes = {
@@ -137,10 +137,10 @@ export default class ConfigurationAnnouncementBar extends React.PureComponent {
             let defaultMessage;
             if (this.props.config.EnableSignUpWithGitLab === 'true') {
                 id = t('announcement_bar.error.site_url_gitlab.full');
-                defaultMessage = 'Please configure your [Site URL](https://docs.vueteams.com/administration/config-settings.html#site-url) in the [System Console](/admin_console/environment/web_server) or in gitlab.rb if you\'re using GitLab Vue.';
+                defaultMessage = 'Please configure your [Site URL](https://docs.NeoAi.com/administration/config-settings.html#site-url) in the [System Console](/admin_console/environment/web_server) or in gitlab.rb if you\'re using GitLab Neo Ai.';
             } else {
                 id = t('announcement_bar.error.site_url.full');
-                defaultMessage = 'Please configure your [Site URL](https://docs.vueteams.com/administration/config-settings.html#site-url) in the [System Console](/admin_console/environment/web_server).';
+                defaultMessage = 'Please configure your [Site URL](https://docs.NeoAi.com/administration/config-settings.html#site-url) in the [System Console](/admin_console/environment/web_server).';
             }
 
             const siteURLMessage = formatMessage({id, defaultMessage});

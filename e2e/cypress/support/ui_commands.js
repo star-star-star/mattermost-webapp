@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import * as TIMEOUTS from '../fixtures/timeouts';
@@ -323,7 +323,7 @@ Cypress.Commands.add('minDisplaySettings', () => {
     cy.get('#languagesEdit').should('be.visible', 'contain', 'Edit');
 });
 
-// Reverts theme color changes to the default Vue theme
+// Reverts theme color changes to the default Neo Ai theme
 Cypress.Commands.add('defaultTheme', (username) => {
     cy.toAccountSettingsModal(username);
     cy.get('#displayButton').click();

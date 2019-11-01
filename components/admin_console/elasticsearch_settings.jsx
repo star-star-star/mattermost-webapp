@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -152,7 +152,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <a
-                                        href='https://about.vueteams.com/default-elasticsearch-documentation/'
+                                        href='https://about.NeoAi.com/default-elasticsearch-documentation/'
                                         rel='noopener noreferrer'
                                         target='_blank'
                                     >
@@ -185,7 +185,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <a
-                                        href='https://about.vueteams.com/default-elasticsearch-server-setup/'
+                                        href='https://about.NeoAi.com/default-elasticsearch-server-setup/'
                                         rel='noopener noreferrer'
                                         target='_blank'
                                     >
@@ -214,7 +214,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.elasticsearch.skipTLSVerificationDescription'
-                            defaultMessage='When true, Vue will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority.'
+                            defaultMessage='When true, Neo Ai will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority.'
                         />
                     }
                     value={this.state.skipTLSVerification}
@@ -287,7 +287,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.elasticsearch.testHelpText'
-                            defaultMessage='Tests if the Vue server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. See log file for more detailed error messages.'
+                            defaultMessage='Tests if the Neo Ai server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. See log file for more detailed error messages.'
                         />
                     }
                     buttonText={

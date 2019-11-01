@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
@@ -14,7 +14,7 @@ const SECTION_NONE = (
         <td>
             <FormattedMessage
                 id='admin.connectionSecurityNoneDescription'
-                defaultMessage='Vue will connect over an insecure connection.'
+                defaultMessage='Neo Ai will connect over an insecure connection.'
             />
         </td>
     </tr>
@@ -31,7 +31,7 @@ const SECTION_TLS = (
         <td>
             <FormattedMessage
                 id='admin.connectionSecurityTlsDescription'
-                defaultMessage='Encrypts the communication between Vue and your server.'
+                defaultMessage='Encrypts the communication between Neo Ai and your server.'
             />
         </td>
     </tr>
@@ -109,7 +109,7 @@ export const WEBSERVER_MODE_HELP_TEXT = (
                     <td>
                         <FormattedMessage
                             id='admin.webserverModeGzipDescription'
-                            defaultMessage='The Vue server will serve static files compressed with gzip.'
+                            defaultMessage='The Neo Ai server will serve static files compressed with gzip.'
                         />
                     </td>
                 </tr>
@@ -123,7 +123,7 @@ export const WEBSERVER_MODE_HELP_TEXT = (
                     <td>
                         <FormattedMessage
                             id='admin.webserverModeUncompressedDescription'
-                            defaultMessage='The Vue server will serve static files uncompressed.'
+                            defaultMessage='The Neo Ai server will serve static files uncompressed.'
                         />
                     </td>
                 </tr>
@@ -137,7 +137,7 @@ export const WEBSERVER_MODE_HELP_TEXT = (
                     <td>
                         <FormattedMessage
                             id='admin.webserverModeDisabledDescription'
-                            defaultMessage='The Vue server will not serve static files.'
+                            defaultMessage='The Neo Ai server will not serve static files.'
                         />
                     </td>
                 </tr>

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -10,7 +10,7 @@ export default class MattermostLogo extends React.PureComponent {
             <span {...this.props}>
                 <FormattedMessage
                     id='generic_icons.mattermost'
-                    defaultMessage='Vue Logo'
+                    defaultMessage='Neo Ai Logo'
                 >
                     {(ariaLabel) => (
                         <svg

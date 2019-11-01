@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -26,7 +26,7 @@ describe('components/select_team/SelectTeam', () => {
             {id: 'team_id_1', delete_at: 0, name: 'team-a', display_name: 'Team A', allow_open_invite: true},
             {id: 'team_id_2', delete_at: 0, name: 'b-team', display_name: 'B Team', allow_open_invite: true},
         ],
-        siteName: 'Vue',
+        siteName: 'Neo Ai',
         canCreateTeams: false,
         canManageSystem: true,
         canJoinPublicTeams: true,

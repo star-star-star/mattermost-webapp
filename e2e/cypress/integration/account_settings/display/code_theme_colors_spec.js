@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -53,7 +53,7 @@ describe('AS14319 Theme Colors - Code', () => {
         // # Select the Theme Colors radio
         cy.get('#standardThemes').check().should('be.checked');
 
-        // # Select the Vue pre-made theme
+        // # Select the Neo Ai pre-made theme
         cy.get('#premadeThemeMattermost').first().click();
 
         // # Save and close settings modal

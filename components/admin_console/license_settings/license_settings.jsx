@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -105,8 +105,8 @@ export default class LicenseSettings extends React.Component {
 
         if (license.IsLicensed === 'true' && !uploading) {
             // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
-            const sku = license.SkuShortName ? <React.Fragment>{`Edition: Vue Enterprise Edition ${license.SkuShortName}`}<br/></React.Fragment> : null;
-            edition = 'Vue Enterprise Edition. Enterprise features on this server have been unlocked with a license key and a valid subscription.';
+            const sku = license.SkuShortName ? <React.Fragment>{`Edition: Neo Ai Enterprise Edition ${license.SkuShortName}`}<br/></React.Fragment> : null;
+            edition = 'Neo Ai Enterprise Edition. Enterprise features on this server have been unlocked with a license key and a valid subscription.';
             licenseType = (
                 <div>
                     <p>
@@ -124,12 +124,12 @@ export default class LicenseSettings extends React.Component {
                     <a
                         rel='noopener noreferrer'
                         target='_blank'
-                        href='https://about.vueteams.com/enterprise-edition-terms/'
+                        href='https://about.NeoAi.com/enterprise-edition-terms/'
                     >{'Enterprise Edition Terms of Service'}</a>{' and '}
                     <a
                         rel='noopener noreferrer'
                         target='_blank'
-                        href='https://about.vueteams.com/privacy/'
+                        href='https://about.NeoAi.com/privacy/'
                     >{'Privacy Policy.'}</a>
                 </div>
             );
@@ -169,7 +169,7 @@ export default class LicenseSettings extends React.Component {
             // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
             edition = (
                 <p>
-                    {'Vue Enterprise Edition. Unlock enterprise features in this software through the purchase of a subscription from '}
+                    {'Neo Ai Enterprise Edition. Unlock enterprise features in this software through the purchase of a subscription from '}
                     <a
                         target='_blank'
                         rel='noopener noreferrer'
@@ -241,7 +241,7 @@ export default class LicenseSettings extends React.Component {
                     <p className='help-text no-margin'>
                         <FormattedMarkdownMessage
                             id='admin.license.uploadDesc'
-                            defaultMessage='Upload a license key for Vue Enterprise Edition to upgrade this server. [Visit us online](!http://mattermost.com) to learn more about the benefits of Enterprise Edition or to purchase a key.'
+                            defaultMessage='Upload a license key for Neo Ai Enterprise Edition to upgrade this server. [Visit us online](!http://mattermost.com) to learn more about the benefits of Enterprise Edition or to purchase a key.'
                         />
                     </p>
                 </div>

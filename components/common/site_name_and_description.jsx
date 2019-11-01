@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -12,7 +12,7 @@ export default class SiteNameAndDescription extends React.PureComponent {
     };
 
     static defaultProps = {
-        siteName: 'Vue',
+        siteName: 'Neo Ai',
     };
 
     render() {

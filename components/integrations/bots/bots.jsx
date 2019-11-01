@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -206,7 +206,7 @@ export default class Bots extends React.PureComponent {
                 helpText={
                     <FormattedMessage
                         id='bots.manage.help'
-                        defaultMessage='Use {botAccounts} to integrate with Vue through plugins or the API. Bot accounts are available to everyone on your server.'
+                        defaultMessage='Use {botAccounts} to integrate with Neo Ai through plugins or the API. Bot accounts are available to everyone on your server.'
                         values={{
                             botAccounts: (
                                 <a

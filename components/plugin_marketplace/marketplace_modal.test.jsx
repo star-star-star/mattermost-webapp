@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -13,7 +13,7 @@ describe('components/MarketplaceModal', () => {
         manifest: {
             id: 'com.mattermost.nps',
             name: 'User Satisfaction Surveys',
-            description: 'This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Vue',
+            description: 'This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Neo Ai',
             version: '1.0.3',
             minServerVersion: '5.14.0',
         },

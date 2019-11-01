@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -15,7 +15,7 @@ describe('/components/create_team', () => {
     const defaultProps = {
         currentChannel: {name: 'test-channel'},
         currentTeam: {name: 'test-team'},
-        siteName: 'Vue',
+        siteName: 'Neo Ai',
         customBrand: true,
         enableCustomBrand: true,
         customDescriptionText: 'Welcome to our custom branded site!',

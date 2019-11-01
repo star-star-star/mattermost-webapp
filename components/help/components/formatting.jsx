@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -120,7 +120,7 @@ export default function HelpFormatting() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.formatting.syntax.description'
-                    defaultMessage='To add syntax highlighting, type the language to be highlighted after the ``` at the beginning of the code block. Vue also offers four different code themes (GitHub, Solarized Dark, Solarized Light, Monokai) that can be changed in **Account Settings** > **Display** > **Theme** > **Custom Theme** > **Center Channel Styles**'
+                    defaultMessage='To add syntax highlighting, type the language to be highlighted after the ``` at the beginning of the code block. Neo Ai also offers four different code themes (GitHub, Solarized Dark, Solarized Light, Monokai) that can be changed in **Account Settings** > **Display** > **Theme** > **Custom Theme** > **Center Channel Styles**'
                 />
             </p>
             <p>
@@ -156,7 +156,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.vueteams.com/_images/syntax-highlighting-github.PNG'
+                    src='https://docs.NeoAi.com/_images/syntax-highlighting-github.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -169,7 +169,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.vueteams.com/_images/syntax-highlighting-sol-dark.PNG'
+                    src='https://docs.NeoAi.com/_images/syntax-highlighting-sol-dark.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -182,7 +182,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.vueteams.com/_images/syntax-highlighting-sol-light.PNG'
+                    src='https://docs.NeoAi.com/_images/syntax-highlighting-sol-light.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -195,7 +195,7 @@ export default function HelpFormatting() {
             </p>
             <p>
                 <img
-                    src='https://docs.vueteams.com/_images/syntax-highlighting-monokai.PNG'
+                    src='https://docs.NeoAi.com/_images/syntax-highlighting-monokai.PNG'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -235,7 +235,7 @@ export default function HelpFormatting() {
             </p>
             <FormattedMessage
                 id='help.formatting.linkEx'
-                defaultMessage={'[Check out Vue!](https://about.vueteams.com/)'}
+                defaultMessage={'[Check out Neo Ai!](https://about.NeoAi.com/)'}
             >
                 {(example) => (
                     <div>
@@ -263,7 +263,7 @@ export default function HelpFormatting() {
             </p>
             <FormattedMessage
                 id='help.formatting.imagesExample'
-                defaultMessage={'![alt text]({siteUrl}/static/images/logo-email.png "Vue horizontal logo")\n\nand\n\n[![Atlassian](https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png)](https://travis-ci.org/mattermost/mattermost-server) [![Github](https://github.githubassets.com/favicon.ico)](https://github.com/mattermost/mattermost-server)'}
+                defaultMessage={'![alt text]({siteUrl}/static/images/logo-email.png "Neo Ai horizontal logo")\n\nand\n\n[![Atlassian](https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png)](https://travis-ci.org/mattermost/mattermost-server) [![Github](https://github.githubassets.com/favicon.ico)](https://github.com/mattermost/mattermost-server)'}
                 values={{siteURL: getSiteURL()}}
             >
                 {(example) => renderRawExampleWithResult(example)}
@@ -277,7 +277,7 @@ export default function HelpFormatting() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.formatting.emojis.description'
-                    defaultMessage={'Open the emoji autocomplete by typing `:`. A full list of emojis can be found [here](!http://www.emoji-cheat-sheet.com/). It is also possible to create your own [Custom Emoji](!http://docs..vueteams.com/help/settings/custom-emoji.html) if the emoji you want to use doesn\'t exist.'}
+                    defaultMessage={'Open the emoji autocomplete by typing `:`. A full list of emojis can be found [here](!http://www.emoji-cheat-sheet.com/). It is also possible to create your own [Custom Emoji](!http://docs..NeoAi.com/help/settings/custom-emoji.html) if the emoji you want to use doesn\'t exist.'}
                 />
             </p>
             {renderRawExampleWithResult(':smile: :+1: :sheep:')}

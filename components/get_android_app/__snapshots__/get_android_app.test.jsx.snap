@@ -8,7 +8,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
     className="get-app__header"
   >
     <FormattedMessage
-      defaultMessage="Vue works best if you switch to our Android app"
+      defaultMessage="Neo Ai works best if you switch to our Android app"
       id="get_app.androidHeader"
       values={Object {}}
     />
@@ -27,7 +27,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
         className="get-android-app__app-name"
       >
         <FormattedMessage
-          defaultMessage="Vue for Android"
+          defaultMessage="Neo Ai for Android"
           id="get_app.androidAppName"
           values={Object {}}
         />
@@ -36,7 +36,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
         className="get-android-app__app-creator"
       >
         <FormattedMessage
-          defaultMessage="Vue, Inc"
+          defaultMessage="Neo Ai, Inc"
           id="get_app.mattermostInc"
           values={Object {}}
         />
@@ -45,7 +45,7 @@ exports[`components/GetAndroidApp should match snapshot 1`] = `
   </div>
   <a
     className="btn btn-primary get-android-app__app-store-link"
-    href="https://about.vueteams.com/mattermost-android-app"
+    href="https://about.NeoAi.com/mattermost-android-app"
   >
     <FormattedMessage
       defaultMessage="Continue"

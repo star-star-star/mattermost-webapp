@@ -8,7 +8,7 @@ exports[`components/GetIosApp should match snapshot 1`] = `
     className="get-app__header"
   >
     <FormattedMessage
-      defaultMessage="Vue works best if you switch to our iPhone app"
+      defaultMessage="Neo Ai works best if you switch to our iPhone app"
       id="get_app.iosHeader"
       values={Object {}}
     />
@@ -16,7 +16,7 @@ exports[`components/GetIosApp should match snapshot 1`] = `
   <hr />
   <a
     className="get-ios-app__app-store-link"
-    href="https://about.vueteams.com/mattermost-ios-app"
+    href="https://about.NeoAi.com/mattermost-ios-app"
     rel="noopener noreferrer"
   >
     <img
@@ -43,8 +43,8 @@ exports[`components/GetIosApp should match snapshot 1`] = `
     href="mattermost://"
   >
     <FormattedMessage
-      defaultMessage="Open Vue"
-      id="get_app.openVue"
+      defaultMessage="Open Neo Ai"
+      id="get_app.openNeo Ai"
       values={Object {}}
     />
   </a>

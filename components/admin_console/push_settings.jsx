@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -125,28 +125,28 @@ export default class PushSettings extends AdminSettings {
             sendHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.pushOffHelp'
-                    defaultMessage='Please see [documentation on push notifications](!https://about.vueteams.com/default-mobile-push-notifications/) to learn more about setup options.'
+                    defaultMessage='Please see [documentation on push notifications](!https://about.NeoAi.com/default-mobile-push-notifications/) to learn more about setup options.'
                 />
             );
         } else if (this.state.pushNotificationServerType === PUSH_NOTIFICATIONS_MHPNS) {
             pushServerHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.mhpnsHelp'
-                    defaultMessage='Download [Vue iOS app](!https://about.vueteams.com/mattermost-ios-app/) from iTunes. Download [Vue Android app](!https://about.vueteams.com/mattermost-android-app/) from Google Play. Learn more about the [Vue Hosted Push Notification Service](!https://about.vueteams.com/default-hpns/).'
+                    defaultMessage='Download [Neo Ai iOS app](!https://about.NeoAi.com/mattermost-ios-app/) from iTunes. Download [Neo Ai Android app](!https://about.NeoAi.com/mattermost-android-app/) from Google Play. Learn more about the [Neo Ai Hosted Push Notification Service](!https://about.NeoAi.com/default-hpns/).'
                 />
             );
         } else if (this.state.pushNotificationServerType === PUSH_NOTIFICATIONS_MTPNS) {
             pushServerHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.mtpnsHelp'
-                    defaultMessage='Download [Vue iOS app](!https://about.vueteams.com/mattermost-ios-app/) from iTunes. Download [Vue Android app](!https://about.vueteams.com/mattermost-android-app/) from Google Play. Learn more about the [Vue Test Push Notification Service](!https://about.vueteams.com/default-tpns/).'
+                    defaultMessage='Download [Neo Ai iOS app](!https://about.NeoAi.com/mattermost-ios-app/) from iTunes. Download [Neo Ai Android app](!https://about.NeoAi.com/mattermost-android-app/) from Google Play. Learn more about the [Neo Ai Test Push Notification Service](!https://about.NeoAi.com/default-tpns/).'
                 />
             );
         } else {
             pushServerHelpText = (
                 <FormattedMarkdownMessage
                     id='admin.email.easHelp'
-                    defaultMessage='Learn more about compiling and deploying your own mobile apps from an [Enterprise App Store](!https://about.vueteams.com/default-enterprise-app-store).'
+                    defaultMessage='Learn more about compiling and deploying your own mobile apps from an [Enterprise App Store](!https://about.NeoAi.com/default-enterprise-app-store).'
                 />
             );
         }
@@ -165,7 +165,7 @@ export default class PushSettings extends AdminSettings {
                         />
                         <FormattedMarkdownMessage
                             id='admin.email.agreeHPNS'
-                            defaultMessage=' I understand and accept the Vue Hosted Push Notification Service [Terms of Service](!https://about.vueteams.com/hpns-terms/) and [Privacy Policy](!https://about.vueteams.com/hpns-privacy/).'
+                            defaultMessage=' I understand and accept the Neo Ai Hosted Push Notification Service [Terms of Service](!https://about.NeoAi.com/hpns-terms/) and [Privacy Policy](!https://about.NeoAi.com/hpns-privacy/).'
                         />
                     </div>
                 </div>
@@ -197,7 +197,7 @@ export default class PushSettings extends AdminSettings {
                             defaultMessage='Push Notification Server:'
                         />
                     }
-                    placeholder={Utils.localizeMessage('admin.email.pushServerEx', 'E.g.: "https://push-test.vueteams.com"')}
+                    placeholder={Utils.localizeMessage('admin.email.pushServerEx', 'E.g.: "https://push-test.NeoAi.com"')}
                     helpText={pushServerHelpText}
                     value={this.state.pushNotificationServer}
                     onChange={this.handleChange}

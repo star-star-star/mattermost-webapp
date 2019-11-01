@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -398,7 +398,7 @@ export default class NotificationsTab extends React.Component {
                             <div className='margin-top x3'>
                                 <FormattedMessage
                                     id='user.settings.push_notification.info'
-                                    defaultMessage='Notification alerts are pushed to your mobile device when there is activity in Vue.'
+                                    defaultMessage='Notification alerts are pushed to your mobile device when there is activity in Neo Ai.'
                                 />
                             </div>
                         </fieldset>

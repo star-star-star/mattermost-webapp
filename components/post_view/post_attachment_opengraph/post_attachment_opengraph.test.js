@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {shallow} from 'enzyme';
@@ -39,8 +39,8 @@ describe('PostAttachmentOpenGraph', () => {
                 secure_url: '',
                 url: imageUrl,
             }],
-            site_name: 'Vue',
-            title: 'Vue Private Cloud Messaging',
+            site_name: 'Neo Ai',
+            title: 'Neo Ai Private Cloud Messaging',
         },
         toggleEmbedVisibility: jest.fn(),
         actions: {

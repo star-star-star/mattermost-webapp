@@ -1,8 +1,8 @@
 <!-- Thank you for contributing a pull request! Here are a few tips to help you:
 
-1. If this is your first contribution, make sure you've read the Contribution Checklist https://developers.vueteams.com/contribute/getting-started/contribution-checklist/
-2. Read our blog post about "Submitting Great PRs" https://developers.vueteams.com/blog/2019-01-24-submitting-great-prs
-3. Take a look at other repository specific documentation at https://developers.vueteams.com/contribute
+1. If this is your first contribution, make sure you've read the Contribution Checklist https://developers.NeoAi.com/contribute/getting-started/contribution-checklist/
+2. Read our blog post about "Submitting Great PRs" https://developers.NeoAi.com/blog/2019-01-24-submitting-great-prs
+3. Take a look at other repository specific documentation at https://developers.NeoAi.com/contribute
 -->
 
 #### Summary

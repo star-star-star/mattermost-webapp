@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -426,7 +426,7 @@ export default class GroupsList extends React.PureComponent {
                     <div className='group-description'>
                         <FormattedMessage
                             id='admin.group_settings.groups_list.mappingHeader'
-                            defaultMessage='Vue Linking'
+                            defaultMessage='Neo Ai Linking'
                         />
                     </div>
                     <div className='group-actions'/>

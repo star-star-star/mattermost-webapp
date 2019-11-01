@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -118,7 +118,7 @@ export default class Authorize extends React.Component {
                         <div className='text'>
                             <FormattedMarkdownMessage
                                 id='authorize.title'
-                                defaultMessage='**{appName}** would like to connect to your **Vue** user account'
+                                defaultMessage='**{appName}** would like to connect to your **Neo Ai** user account'
                                 values={{
                                     appName: app.name,
                                 }}

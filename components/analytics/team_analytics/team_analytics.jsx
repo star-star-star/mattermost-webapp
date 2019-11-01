@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -153,7 +153,7 @@ export default class TeamAnalytics extends React.Component {
                     <div className='banner__content'>
                         <FormattedMarkdownMessage
                             id='analytics.system.infoAndSkippedIntensiveQueries'
-                            defaultMessage='Only data for the chosen team is calculated. Excludes posts made in direct message channels, which are not tied to a team. \n \n Some statistics have been omitted because they put too much load on the system to calculate. See [https://docs.vueteams.com/administration/statistics.html](!https://docs.vueteams.com/administration/statistics.html) for more details.'
+                            defaultMessage='Only data for the chosen team is calculated. Excludes posts made in direct message channels, which are not tied to a team. \n \n Some statistics have been omitted because they put too much load on the system to calculate. See [https://docs.NeoAi.com/administration/statistics.html](!https://docs.NeoAi.com/administration/statistics.html) for more details.'
                         />
                     </div>
                 </div>

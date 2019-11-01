@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import LinkOnlyRenderer from 'utils/markdown/link_only_renderer';
@@ -262,21 +262,21 @@ describe('formatWithRenderer | LinkOnlyRenderer', () => {
         },
         {
             description: 'link: link without a scheme',
-            inputText: 'Do you like www.vueteams.com?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.vueteams.com" target="_blank">' +
-            'www.vueteams.com</a>?',
+            inputText: 'Do you like www.NeoAi.com?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.NeoAi.com" target="_blank">' +
+            'www.NeoAi.com</a>?',
         },
         {
             description: 'link: link with a scheme',
-            inputText: 'Do you like http://www.vueteams.com?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.vueteams.com" target="_blank">' +
-            'http://www.vueteams.com</a>?',
+            inputText: 'Do you like http://www.NeoAi.com?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.NeoAi.com" target="_blank">' +
+            'http://www.NeoAi.com</a>?',
         },
         {
             description: 'link: link with a title',
-            inputText: 'Do you like [Vue](http://www.vueteams.com)?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.vueteams.com" target="_blank">' +
-            'Vue</a>?',
+            inputText: 'Do you like [Neo Ai](http://www.NeoAi.com)?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.NeoAi.com" target="_blank">' +
+            'Neo Ai</a>?',
         },
         {
             description: 'link: link with curly brackets',

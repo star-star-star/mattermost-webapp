@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -30,7 +30,7 @@ describe('Markdown', () => {
         // Note we use the Gigantic timeout to ensure that the large images will load
         cy.getLastPostId().then((postId) => {
             cy.get(`#postMessageText_${postId}`).find('p').
-                should('have.text', 'Vue/platform build status:  ');
+                should('have.text', 'Neo Ai/platform build status:  ');
 
             cy.get(`#postMessageText_${postId}`).find('img').
                 should('have.class', 'markdown-inline-img').

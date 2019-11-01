@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -40,12 +40,12 @@ describe('components/AboutBuildModal', () => {
             BuildHash: 'abcdef1234567890',
             BuildHashEnterprise: '0123456789abcdef',
             BuildDate: '21 January 2017',
-            TermsOfServiceLink: 'https://about.vueteams.com/default-terms/',
+            TermsOfServiceLink: 'https://about.NeoAi.com/default-terms/',
             PrivacyPolicyLink: 'https://mattermost.com/privacy-policy/',
         };
         license = {
             IsLicensed: 'true',
-            Company: 'Vue Inc',
+            Company: 'Neo Ai Inc.',
         };
     });
 

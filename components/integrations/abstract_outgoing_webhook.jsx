@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -475,7 +475,7 @@ export default class AbstractOutgoingWebhook extends React.Component {
                                         values={{
                                             link: (
                                                 <a
-                                                    href='https://about.vueteams.com/default-allow-internal-connections-settings-documentation/'
+                                                    href='https://about.NeoAi.com/default-allow-internal-connections-settings-documentation/'
                                                     target='_blank'
                                                     rel='noopener noreferrer'
                                                 >

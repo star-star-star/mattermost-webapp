@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -118,7 +118,7 @@ export default class TutorialIntroScreens extends React.Component {
                 <h1>
                     <FormattedMessage
                         id='tutorial_intro.screenOne.title2'
-                        defaultMessage='Vue'
+                        defaultMessage='Neo Ai'
                     />
                 </h1>
                 <p>
@@ -191,7 +191,7 @@ export default class TutorialIntroScreens extends React.Component {
                 <h3>
                     <FormattedMessage
                         id='tutorial_intro.screenTwo.title'
-                        defaultMessage='How Vue works:'
+                        defaultMessage='How Neo Ai works:'
                     />
                 </h3>
                 <p>

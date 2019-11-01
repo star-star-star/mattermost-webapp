@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 const childProcess = require('child_process');
@@ -273,10 +273,10 @@ var config = {
         // Generate manifest.json, honouring any configured publicPath. This also handles injecting
         // <link rel="apple-touch-icon" ... /> and <meta name="apple-*" ... /> tags into root.html.
         new WebpackPwaManifest({
-            name: 'Vue',
-            short_name: 'Vue',
+            name: 'Neo Ai',
+            short_name: 'Neo Ai',
             start_url: '..',
-            description: 'Vue is an open source, self-hosted Slack-alternative',
+            description: 'Neo Ai is an open source, self-hosted Slack-alternative',
             background_color: '#ffffff',
             inject: true,
             ios: true,

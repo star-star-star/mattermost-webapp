@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -23,7 +23,7 @@ describe('components/user_settings/notifications/EmailNotificationSetting', () =
         saving: false,
         sendEmailNotifications: true,
         enableEmailBatching: false,
-        siteName: 'Vue',
+        siteName: 'Neo Ai',
         actions: {
             savePreferences: jest.fn(),
         },

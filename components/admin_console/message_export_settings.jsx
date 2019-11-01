@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 import React from 'react';
 import {FormattedHTMLMessage, FormattedMessage} from 'react-intl';
@@ -216,7 +216,7 @@ export default class MessageExportSettings extends AdminSettings {
                     helpText={
                         <FormattedMarkdownMessage
                             id='admin.service.complianceExportDesc'
-                            defaultMessage='When true, Vue will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.vueteams.com/default-compliance-export-documentation) to learn more.'
+                            defaultMessage='When true, Neo Ai will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See [the documentation](!https://about.NeoAi.com/default-compliance-export-documentation) to learn more.'
                         />
                     }
                     value={this.state.enableComplianceExport}

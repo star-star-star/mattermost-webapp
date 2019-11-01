@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -582,7 +582,7 @@ export default class AddBot extends React.Component {
                             <div className='col-md-5 col-sm-8 col-sm-offset-4'>
                                 <FormattedMarkdownMessage
                                     id='admin.manage_roles.additionalRoles'
-                                    defaultMessage='Select additional permissions for the account. [Read more about roles and permissions](!https://about.vueteams.com/default-permissions).'
+                                    defaultMessage='Select additional permissions for the account. [Read more about roles and permissions](!https://about.NeoAi.com/default-permissions).'
                                 />
                             </div>
                         </div>
@@ -615,7 +615,7 @@ export default class AddBot extends React.Component {
                                 <div className='form__help'>
                                     <FormattedMessage
                                         id='bot.add.post_all.help'
-                                        defaultMessage='Bot will have access to post to all Vue channels including direct messages.'
+                                        defaultMessage='Bot will have access to post to all Neo Ai channels including direct messages.'
                                     />
                                 </div>
                             </div>
@@ -649,7 +649,7 @@ export default class AddBot extends React.Component {
                                 <div className='form__help'>
                                     <FormattedMessage
                                         id='bot.add.post_channels.help'
-                                        defaultMessage='Bot will have access to post to all Vue public channels.'
+                                        defaultMessage='Bot will have access to post to all Neo Ai public channels.'
                                     />
                                 </div>
                             </div>

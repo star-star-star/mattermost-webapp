@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import emojiRegex from 'emoji-regex';
@@ -134,24 +134,24 @@ describe('handleUnicodeEmoji', () => {
 describe('linkOnlyMarkdown', () => {
     const options = {markdown: false, renderer: new LinkOnlyRenderer()};
     test('link without a title', () => {
-        const text = 'Do you like https://www.vueteams.com?';
+        const text = 'Do you like https://www.NeoAi.com?';
         const output = formatText(text, options);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.vueteams.com" target="_blank">' +
-            'https://www.vueteams.com</a>?');
+            'Do you like <a class="theme markdown__link" href="https://www.NeoAi.com" target="_blank">' +
+            'https://www.NeoAi.com</a>?');
     });
     test('link with a title', () => {
-        const text = 'Do you like [Vue](https://www.vueteams.com)?';
+        const text = 'Do you like [Neo Ai](https://www.NeoAi.com)?';
         const output = formatText(text, options);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.vueteams.com" target="_blank">' +
-            'Vue</a>?');
+            'Do you like <a class="theme markdown__link" href="https://www.NeoAi.com" target="_blank">' +
+            'Neo Ai</a>?');
     });
     test('link with header signs to skip', () => {
-        const text = '#### Do you like [Vue](https://www.vueteams.com)?';
+        const text = '#### Do you like [Neo Ai](https://www.NeoAi.com)?';
         const output = formatText(text, options);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.vueteams.com" target="_blank">' +
-            'Vue</a>?');
+            'Do you like <a class="theme markdown__link" href="https://www.NeoAi.com" target="_blank">' +
+            'Neo Ai</a>?');
     });
 });

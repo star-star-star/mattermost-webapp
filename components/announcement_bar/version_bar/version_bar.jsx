@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -54,7 +54,7 @@ export default class VersionBar extends React.PureComponent {
                         <React.Fragment>
                             <FormattedMessage
                                 id='version_bar.new'
-                                defaultMessage='A new version of Vue is available.'
+                                defaultMessage='A new version of Neo Ai is available.'
                             />
                             {' '}
                             <a onClick={this.reloadPage}>

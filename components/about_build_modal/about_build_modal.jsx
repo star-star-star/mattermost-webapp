@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -68,14 +68,14 @@ export default class AboutBuildModal extends React.PureComponent {
             <div>
                 <FormattedMessage
                     id='about.teamEditionLearn'
-                    defaultMessage='Join the Vue community at '
+                    defaultMessage='Join the Neo Ai community at '
                 />
                 <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href='http://www.vueteams.com/'
+                    href='http://www.NeoAi.com/'
                 >
-                    {'vueteams.com'}
+                    {'NeoAi.com'}
                 </a>
             </div>
         );
@@ -105,9 +105,9 @@ export default class AboutBuildModal extends React.PureComponent {
                     <a
                         target='_blank'
                         rel='noopener noreferrer'
-                        href='http://about.vueteams.com/'
+                        href='http://about.NeoAi.com/'
                     >
-                        {'about.vueteams.com'}
+                        {'about.NeoAi.com'}
                     </a>
                 </div>
             );
@@ -206,7 +206,7 @@ export default class AboutBuildModal extends React.PureComponent {
                     >
                         <FormattedMessage
                             id='about.title'
-                            values={{appTitle: config.SiteName || 'Vue'}}
+                            values={{appTitle: config.SiteName || 'Neo Ai'}}
                             defaultMessage='About {appTitle}'
                         />
                     </Modal.Title>
@@ -217,13 +217,13 @@ export default class AboutBuildModal extends React.PureComponent {
                             <MattermostLogo/>
                         </div>
                         <div>
-                            <h3 className='about-modal__title'>{'Vue'} {title}</h3>
+                            <h3 className='about-modal__title'>{'Neo Ai'} {title}</h3>
                             <p className='about-modal__subtitle padding-bottom'>{subTitle}</p>
                             <div className='form-group less'>
                                 <div>
                                     <FormattedMessage
                                         id='about.version'
-                                        defaultMessage='Vue Version:'
+                                        defaultMessage='Neo Ai Version:'
                                     />
                                     <span id='versionString'>{'\u00a0' + mmversion}</span>
                                 </div>
@@ -252,7 +252,7 @@ export default class AboutBuildModal extends React.PureComponent {
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} Vue, Inc. All rights reserved'
+                                    defaultMessage='Copyright 2015 - {currentYear} Neo Ai Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -269,7 +269,7 @@ export default class AboutBuildModal extends React.PureComponent {
                         <p>
                             <FormattedMarkdownMessage
                                 id='about.notice'
-                                defaultMessage='Vue is made possible by the open source software used in our [server](!https://about.vueteams.com/platform-notice-txt/), [desktop](!https://about.vueteams.com/desktop-notice-txt/) and [mobile](!https://about.vueteams.com/mobile-notice-txt/) apps.'
+                                defaultMessage='Neo Ai is made possible by the open source software used in our [server](!https://about.NeoAi.com/platform-notice-txt/), [desktop](!https://about.NeoAi.com/desktop-notice-txt/) and [mobile](!https://about.NeoAi.com/mobile-notice-txt/) apps.'
                             />
                         </p>
                     </div>

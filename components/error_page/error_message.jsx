@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -19,7 +19,7 @@ export default function ErrorMessage({type, message, service}) {
                 <div>
                     <FormattedMessage
                         id='error.local_storage.message'
-                        defaultMessage='Vue was unable to load because a setting in your browser prevents the use of its local storage features. To allow Vue to load, try the following actions:'
+                        defaultMessage='Neo Ai was unable to load because a setting in your browser prevents the use of its local storage features. To allow Neo Ai to load, try the following actions:'
                     />
                     <ul>
                         <li>
@@ -93,7 +93,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.vueteams.com/deployment/sso-google.html'}
+                                        url={'https://docs.NeoAi.com/deployment/sso-google.html'}
                                         messageId={t('error.oauth_missing_code.google.link')}
                                         defaultMessage={'Google Apps'}
                                     />
@@ -104,11 +104,11 @@ export default function ErrorMessage({type, message, service}) {
                     <p>
                         <FormattedMessage
                             id='error.oauth_missing_code.office365'
-                            defaultMessage='For {link} make sure the administrator of your Microsoft organization has enabled the Vue app.'
+                            defaultMessage='For {link} make sure the administrator of your Microsoft organization has enabled the Neo Ai app.'
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.vueteams.com/deployment/sso-office.html'}
+                                        url={'https://docs.NeoAi.com/deployment/sso-office.html'}
                                         messageId={t('error.oauth_missing_code.office365.link')}
                                         defaultMessage={'Office 365'}
                                     />
@@ -123,7 +123,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.vueteams.com/deployment/sso-gitlab.html'}
+                                        url={'https://docs.NeoAi.com/deployment/sso-gitlab.html'}
                                         messageId={t('error.oauth_missing_code.gitlab.link')}
                                         defaultMessage={'GitLab'}
                                     />
@@ -138,7 +138,7 @@ export default function ErrorMessage({type, message, service}) {
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://forum.vueteams.com/c/trouble-shoot'}
+                                        url={'https://forum.NeoAi.com/c/trouble-shoot'}
                                         messageId={t('error.oauth_missing_code.forum.link')}
                                         defaultMessage={'Troubleshooting forum'}
                                     />
@@ -154,7 +154,7 @@ export default function ErrorMessage({type, message, service}) {
                 <p>
                     <FormattedMessage
                         id='error.oauth_access_denied'
-                        defaultMessage='You must authorize Vue to log in with {service}.'
+                        defaultMessage='You must authorize Neo Ai to log in with {service}.'
                         values={{
                             service,
                         }}

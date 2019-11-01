@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -421,7 +421,7 @@ export default class PermissionTeamSchemeSettings extends React.Component {
                                 <span>
                                     <FormattedMarkdownMessage
                                         id='admin.permissions.teamScheme.introBanner'
-                                        defaultMessage='[Team Override Schemes](!https://about.vueteams.com/default-team-override-scheme) set the permissions for Team Admins, Channel Admins and other members in specific teams. Use a Team Override Scheme when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme).'
+                                        defaultMessage='[Team Override Schemes](!https://about.NeoAi.com/default-team-override-scheme) set the permissions for Team Admins, Channel Admins and other members in specific teams. Use a Team Override Scheme when specific teams need permission exceptions to the [System Scheme](!https://about.NeoAi.com/default-system-scheme).'
                                     />
                                 </span>
                             </div>

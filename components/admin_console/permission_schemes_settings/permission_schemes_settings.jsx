@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -91,7 +91,7 @@ export default class PermissionSchemesSettings extends React.PureComponent {
 
         const docLink = (
             <a
-                href='https://docs.vueteams.com/administration/config-settings.html#jobs'
+                href='https://docs.NeoAi.com/administration/config-settings.html#jobs'
                 rel='noopener noreferrer'
                 target='_blank'
             >
@@ -149,7 +149,7 @@ export default class PermissionSchemesSettings extends React.PureComponent {
                     titleId={t('admin.permissions.teamOverrideSchemesTitle')}
                     titleDefault='Team Override Schemes'
                     subtitleId={t('admin.permissions.teamOverrideSchemesBannerText')}
-                    subtitleDefault='Use when specific teams need permission exceptions to the [System Scheme](!https://about.vueteams.com/default-system-scheme).'
+                    subtitleDefault='Use when specific teams need permission exceptions to the [System Scheme](!https://about.NeoAi.com/default-system-scheme).'
                     url='/admin_console/user_management/permissions/team_override_scheme'
                     disabled={teamOverrideView !== null}
                     linkTextId={t('admin.permissions.teamOverrideSchemesNewButton')}
@@ -207,7 +207,7 @@ export default class PermissionSchemesSettings extends React.PureComponent {
                                 <span>
                                     <FormattedMarkdownMessage
                                         id='admin.permissions.introBanner'
-                                        defaultMessage='Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.vueteams.com/default-advanced-permissions).'
+                                        defaultMessage='Permission Schemes set the default permissions for Team Admins, Channel Admins and everyone else. Learn more about permission schemes in our [documentation](!https://about.NeoAi.com/default-advanced-permissions).'
                                     />
                                 </span>
                             </div>
@@ -217,7 +217,7 @@ export default class PermissionSchemesSettings extends React.PureComponent {
                             titleId={t('admin.permissions.systemSchemeBannerTitle')}
                             titleDefault='System Scheme'
                             subtitleId={t('admin.permissions.systemSchemeBannerText')}
-                            subtitleDefault='Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.vueteams.com/default-team-override-scheme) is applied.'
+                            subtitleDefault='Set the default permissions inherited by all teams unless a [Team Override Scheme](!https://about.NeoAi.com/default-team-override-scheme) is applied.'
                             url='/admin_console/user_management/permissions/system_scheme'
                             disabled={teamOverrideView !== null}
                             linkTextId={t('admin.permissions.systemSchemeBannerButton')}

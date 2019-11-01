@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -272,7 +272,7 @@ export default class AbstractOAuthApp extends React.PureComponent {
                         <div className='form__help'>
                             <FormattedMessage
                                 id='add_oauth_app.trusted.help'
-                                defaultMessage="When true, the OAuth 2.0 application is considered trusted by the Vue server and doesn't require the user to accept authorization. When false, an additional window will appear, asking the user to accept or deny the authorization."
+                                defaultMessage="When true, the OAuth 2.0 application is considered trusted by the Neo Ai server and doesn't require the user to accept authorization. When false, an additional window will appear, asking the user to accept or deny the authorization."
                             />
                         </div>
                     </div>

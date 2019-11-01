@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -27,14 +27,14 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Vue'
+                defaultMessage='**Notice**\nfrom Neo Ai'
             />
         ),
         icon: mattermostIcon,
         body: (
             <FormattedMarkdownMessage
                 id='system_notice.body.api3'
-                defaultMessage='If you’ve created or installed integrations in the last two years, find out how [recent changes](!https://about.vueteams.com/default-apiv3-deprecation-guide) may have affected them.'
+                defaultMessage='If you’ve created or installed integrations in the last two years, find out how [recent changes](!https://about.NeoAi.com/default-apiv3-deprecation-guide) may have affected them.'
             />
         ),
         allowForget: true,
@@ -51,14 +51,14 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Vue'
+                defaultMessage='**Notice**\nfrom Neo Ai'
             />
         ),
         icon: mattermostIcon,
         body: (
             <FormattedMarkdownMessage
                 id='system_notice.body.permissions'
-                defaultMessage='Some policy and permission System Console settings have moved with the release of [advanced permissions](!https://about.vueteams.com/default-advanced-permissions) in Enterprise E10 and E20.'
+                defaultMessage='Some policy and permission System Console settings have moved with the release of [advanced permissions](!https://about.NeoAi.com/default-advanced-permissions) in Enterprise E10 and E20.'
             />
         ),
         allowForget: true,
@@ -81,7 +81,7 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Vue'
+                defaultMessage='**Notice**\nfrom Neo Ai'
             />
         ),
         icon: mattermostIcon,
@@ -116,7 +116,7 @@ export default [
         title: (
             <FormattedMarkdownMessage
                 id='system_notice.title'
-                defaultMessage='**Notice**\nfrom Vue'
+                defaultMessage='**Notice**\nfrom Neo Ai'
             />
         ),
         icon: mattermostIcon,
@@ -124,7 +124,7 @@ export default [
         body: (
             <FormattedMarkdownMessage
                 id='system_notice.body.ie11_deprecation'
-                defaultMessage='Your browser, IE11, will no longer be supported in an upcoming release. [Find out how to move to another browser in one simple step](!https://forum.vueteams.com/t/mattermost-is-dropping-support-for-internet-explorer-ie11-in-v5-16/7575).'
+                defaultMessage='Your browser, IE11, will no longer be supported in an upcoming release. [Find out how to move to another browser in one simple step](!https://forum.NeoAi.com/t/mattermost-is-dropping-support-for-internet-explorer-ie11-in-v5-16/7575).'
             />
         ),
         show: (serverVersion) => {

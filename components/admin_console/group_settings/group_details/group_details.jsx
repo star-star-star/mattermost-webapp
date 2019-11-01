@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -196,7 +196,7 @@ export default class GroupDetails extends React.PureComponent {
                             titleId={t('admin.group_settings.group_detail.groupUsersTitle')}
                             titleDefault='Users'
                             subtitleId={t('admin.group_settings.group_detail.groupUsersDescription')}
-                            subtitleDefault='Listing of users in Vue associated with this group.'
+                            subtitleDefault='Listing of users in Neo Ai associated with this group.'
                         >
                             <GroupUsers
                                 members={members}

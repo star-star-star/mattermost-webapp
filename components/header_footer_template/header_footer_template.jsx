@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -14,7 +14,7 @@ export default class NotLoggedIn extends React.PureComponent {
         children: PropTypes.object,
 
         /*
-         * Vue configuration
+         * Neo Ai configuration
          */
         config: PropTypes.object,
     };
@@ -106,7 +106,7 @@ export default class NotLoggedIn extends React.PureComponent {
                                 id='company_name'
                                 className='pull-right footer-site-name'
                             >
-                                {'Vue'}
+                                {'Neo Ai'}
                             </span>
                         </div>
                         <div className='col-xs-12'>
@@ -114,7 +114,7 @@ export default class NotLoggedIn extends React.PureComponent {
                                 id='copyright'
                                 className='pull-right footer-link copyright'
                             >
-                                {`© 2015-${new Date().getFullYear()} Vue, Inc.`}
+                                {`© 2015-${new Date().getFullYear()} Neo Ai Inc.`}
                             </span>
                             <span className='pull-right'>
                                 {content}

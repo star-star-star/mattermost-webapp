@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -19,7 +19,7 @@ jest.mock('pdfjs-dist', () => ({
 describe('component/PDFPreview', () => {
     const requiredProps = {
         fileInfo: {extension: 'pdf'},
-        fileUrl: 'https://pre-release.vueteams.com/api/v4/files/ips59w4w9jnfbrs3o94m1dbdie',
+        fileUrl: 'https://pre-release.NeoAi.com/api/v4/files/ips59w4w9jnfbrs3o94m1dbdie',
     };
 
     test('should match snapshot, loading', () => {

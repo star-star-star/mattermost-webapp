@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import * as TIMEOUTS from '../../../../fixtures/timeouts';
@@ -8,7 +8,7 @@ module.exports = {
         return string + '-' + timestamp;
     },
     createEmail: (name, timestamp) => {
-        return name + timestamp + '@sample.vueteams.com';
+        return name + timestamp + '@sample.NeoAi.com';
     },
     enableElasticSearch: () => {
         // Enabled elastic search via the API

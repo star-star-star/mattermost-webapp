@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -72,7 +72,7 @@ export default class ConfirmIntegration extends React.Component {
                 <p>
                     <FormattedMarkdownMessage
                         id='add_command.doneHelp'
-                        defaultMessage='Your slash command has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Vue team (see [documentation](!https://docs.vueteams.com/developer/slash-commands.html) for further details).'
+                        defaultMessage='Your slash command has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Neo Ai team (see [documentation](!https://docs.NeoAi.com/developer/slash-commands.html) for further details).'
                     />
                 </p>
             );
@@ -103,7 +103,7 @@ export default class ConfirmIntegration extends React.Component {
                 <p>
                     <FormattedMarkdownMessage
                         id='add_incoming_webhook.doneHelp'
-                        defaultMessage='Your incoming webhook has been set up. Please send data to the following URL (see [documentation](!https://docs.vueteams.com/developer/webhooks-incoming.html) for further details).'
+                        defaultMessage='Your incoming webhook has been set up. Please send data to the following URL (see [documentation](!https://docs.NeoAi.com/developer/webhooks-incoming.html) for further details).'
                     />
                 </p>
             );
@@ -136,7 +136,7 @@ export default class ConfirmIntegration extends React.Component {
                 <p>
                     <FormattedMarkdownMessage
                         id='add_outgoing_webhook.doneHelp'
-                        defaultMessage='Your outgoing webhook has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Vue team (see [documentation](!https://docs.vueteams.com/developer/webhooks-outgoing.html) for further details).'
+                        defaultMessage='Your outgoing webhook has been set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Neo Ai team (see [documentation](!https://docs.NeoAi.com/developer/webhooks-outgoing.html) for further details).'
                     />
                 </p>
             );
@@ -170,7 +170,7 @@ export default class ConfirmIntegration extends React.Component {
                 <p key='add_oauth_app.doneHelp'>
                     <FormattedMarkdownMessage
                         id='add_oauth_app.doneHelp'
-                        defaultMessage='Your OAuth 2.0 application has been set up. Please use the following Client ID and Client Secret when requesting authorization for your application (see [documentation](!https://docs.vueteams.com/developer/oauth-2-0-applications.html) for further details).'
+                        defaultMessage='Your OAuth 2.0 application has been set up. Please use the following Client ID and Client Secret when requesting authorization for your application (see [documentation](!https://docs.NeoAi.com/developer/oauth-2-0-applications.html) for further details).'
                     />
                 </p>
             );

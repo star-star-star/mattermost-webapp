@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -131,13 +131,13 @@ export default class InstalledOAuthApps extends React.PureComponent {
                 helpText={
                     <FormattedMessage
                         id='installed_oauth_apps.help'
-                        defaultMessage='Create {oauthApplications} to securely integrate bots and third-party apps with Vue. Visit the {appDirectory} to find available self-hosted apps.'
+                        defaultMessage='Create {oauthApplications} to securely integrate bots and third-party apps with Neo Ai. Visit the {appDirectory} to find available self-hosted apps.'
                         values={{
                             oauthApplications: (
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://docs.vueteams.com/developer/oauth-2-0-applications.html'
+                                    href='https://docs.NeoAi.com/developer/oauth-2-0-applications.html'
                                 >
                                     <FormattedMessage
                                         id='installed_oauth_apps.help.oauthApplications'
@@ -149,7 +149,7 @@ export default class InstalledOAuthApps extends React.PureComponent {
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://about.vueteams.com/default-app-directory/'
+                                    href='https://about.NeoAi.com/default-app-directory/'
                                 >
                                     <FormattedMessage
                                         id='installed_oauth_apps.help.appDirectory'

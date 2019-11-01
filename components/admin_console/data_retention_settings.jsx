@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -179,7 +179,7 @@ export default class DataRetentionSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.data_retention.messageRetentionDays.description'
-                            defaultMessage='Set how many days messages are kept in Vue. Messages, including file attachments older than the duration you set will be deleted nightly. The minimum time is one day.'
+                            defaultMessage='Set how many days messages are kept in Neo Ai. Messages, including file attachments older than the duration you set will be deleted nightly. The minimum time is one day.'
                         />
                     }
                     value={this.state.messageRetentionDays}
@@ -199,7 +199,7 @@ export default class DataRetentionSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.data_retention.fileRetentionDays.description'
-                            defaultMessage='Set how many days file uploads are kept in Vue. Files older than the duration you set will be deleted nightly. The minimum time is one day.'
+                            defaultMessage='Set how many days file uploads are kept in Neo Ai. Files older than the duration you set will be deleted nightly. The minimum time is one day.'
                         />
                     }
                     value={this.state.fileRetentionDays}
@@ -222,7 +222,7 @@ export default class DataRetentionSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <a
-                                        href='https://about.vueteams.com/default-dataretention-documentation/'
+                                        href='https://about.NeoAi.com/default-dataretention-documentation/'
                                         rel='noopener noreferrer'
                                         target='_blank'
                                     >
@@ -248,7 +248,7 @@ export default class DataRetentionSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.data_retention.enableMessageDeletion.description'
-                            defaultMessage='Set how long Vue keeps messages in channels and direct messages.'
+                            defaultMessage='Set how long Neo Ai keeps messages in channels and direct messages.'
                         />
                     }
                     value={this.state.enableMessageDeletion}
@@ -268,7 +268,7 @@ export default class DataRetentionSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.data_retention.enableFileDeletion.description'
-                            defaultMessage='Set how long Vue keeps file uploads in channels and direct messages.'
+                            defaultMessage='Set how long Neo Ai keeps file uploads in channels and direct messages.'
                         />
                     }
                     value={this.state.enableFileDeletion}

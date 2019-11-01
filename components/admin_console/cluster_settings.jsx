@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -77,7 +77,7 @@ export default class ClusterSettings extends AdminSettings {
                     <WarningIcon/>
                     <FormattedMarkdownMessage
                         id='admin.cluster.loadedFrom'
-                        defaultMessage='This configuration file was loaded from Node ID {clusterId}. Please see the Troubleshooting Guide in our [documentation](!http://docs..vueteams.com/deployment/cluster.html) if you are accessing the System Console through a load balancer and experiencing issues.'
+                        defaultMessage='This configuration file was loaded from Node ID {clusterId}. Please see the Troubleshooting Guide in our [documentation](!http://docs..NeoAi.com/deployment/cluster.html) if you are accessing the System Console through a load balancer and experiencing issues.'
                         values={{
                             clusterId: Client4.clusterId,
                         }}
@@ -97,7 +97,7 @@ export default class ClusterSettings extends AdminSettings {
                     <WarningIcon/>
                     <FormattedMarkdownMessage
                         id='admin.cluster.should_not_change'
-                        defaultMessage='WARNING: These settings may not sync with the other servers in the cluster. High Availability inter-node communication will not start until you modify the config.json to be identical on all servers and restart Vue. Please see the [documentation](!http://docs..vueteams.com/deployment/cluster.html) on how to add or remove a server from the cluster. If you are accessing the System Console through a load balancer and experiencing issues, please see the Troubleshooting Guide in our [documentation](!http://docs..vueteams.com/deployment/cluster.html).'
+                        defaultMessage='WARNING: These settings may not sync with the other servers in the cluster. High Availability inter-node communication will not start until you modify the config.json to be identical on all servers and restart Neo Ai. Please see the [documentation](!http://docs..NeoAi.com/deployment/cluster.html) on how to add or remove a server from the cluster. If you are accessing the System Console through a load balancer and experiencing issues, please see the Troubleshooting Guide in our [documentation](!http://docs..NeoAi.com/deployment/cluster.html).'
                     />
                 </div>
             );
@@ -130,7 +130,7 @@ export default class ClusterSettings extends AdminSettings {
                     helpText={
                         <FormattedMarkdownMessage
                             id='admin.cluster.enableDescription'
-                            defaultMessage='When true, Vue will run in High Availability mode. Please see [documentation](!http://docs..vueteams.com/deployment/cluster.html) to learn more about configuring High Availability for Vue.'
+                            defaultMessage='When true, Neo Ai will run in High Availability mode. Please see [documentation](!http://docs..NeoAi.com/deployment/cluster.html) to learn more about configuring High Availability for Neo Ai.'
                         />
                     }
                     value={this.state.Enable}

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -22,14 +22,14 @@ export default function HelpCommands() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.commands.intro1'
-                    defaultMessage='Slash commands perform operations in Vue by typing into the text input box. Enter a `/` followed by a command and some arguments to perform actions.'
+                    defaultMessage='Slash commands perform operations in Neo Ai by typing into the text input box. Enter a `/` followed by a command and some arguments to perform actions.'
                 />
             </p>
 
             <p>
                 <FormattedMarkdownMessage
                     id='help.commands.intro2'
-                    defaultMessage='Built-in slash commands come with all Vue installations and custom slash commands are configurable to interact with external applications. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs..vueteams.com/developer/slash-commands.html).'
+                    defaultMessage='Built-in slash commands come with all Neo Ai installations and custom slash commands are configurable to interact with external applications. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs..NeoAi.com/developer/slash-commands.html).'
                 />
             </p>
 
@@ -43,20 +43,20 @@ export default function HelpCommands() {
             <p>
                 <FormattedMessage
                     id='help.commands.builtin.description'
-                    defaultMessage='The following slash commands are available on all Vue installations:'
+                    defaultMessage='The following slash commands are available on all Neo Ai installations:'
                 />
             </p>
 
             <p>
                 <img
-                    src='https://s3.amazonaws.com/images.vueteams.com/slashCommandsTable1.png'
+                    src='https://s3.amazonaws.com/images.NeoAi.com/slashCommandsTable1.png'
                     alt='commands'
                     className='markdown-inline-img'
                 />
             </p>
             <p>
                 <img
-                    src='https://s3.amazonaws.com/images.vueteams.com/slashCommandsTable2.png'
+                    src='https://s3.amazonaws.com/images.NeoAi.com/slashCommandsTable2.png'
                     alt='commands'
                     className='markdown-inline-img'
                 />
@@ -71,7 +71,7 @@ export default function HelpCommands() {
 
             <p>
                 <img
-                    src='https://docs.vueteams.com/_images/slashCommandsAutocomplete.PNG'
+                    src='https://docs.NeoAi.com/_images/slashCommandsAutocomplete.PNG'
                     alt='autocomplete'
                     className='markdown-inline-img'
                 />
@@ -94,7 +94,7 @@ export default function HelpCommands() {
             <p>
                 <FormattedMarkdownMessage
                     id='help.commands.custom2'
-                    defaultMessage='Custom slash commands are disabled by default and can be enabled by the System Admin in the **System Console** > **Integrations** > **Webhooks and Commands**. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs..vueteams.com/developer/slash-commands.html).'
+                    defaultMessage='Custom slash commands are disabled by default and can be enabled by the System Admin in the **System Console** > **Integrations** > **Webhooks and Commands**. Learn about configuring custom slash commands on the [developer slash command documentation page](!http://docs..NeoAi.com/developer/slash-commands.html).'
                 />
             </p>
 

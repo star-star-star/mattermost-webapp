@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import $ from 'jquery';
@@ -686,13 +686,13 @@ export default class GeneralTab extends React.Component {
                             onChange={this.updateAllowedDomains}
                             value={this.state.allowed_domains}
                             onFocus={Utils.moveCursorToEnd}
-                            placeholder={{id: t('general_tab.AllowedDomainsExample'), defaultMessage: 'corp.vueteams.com, vueteams.com'}}
+                            placeholder={{id: t('general_tab.AllowedDomainsExample'), defaultMessage: 'corp.NeoAi.com, NeoAi.com'}}
                         />
                     </div>
                 </div>
             );
 
-            const allowedDomainsInfo = <span>{Utils.localizeMessage('general_tab.AllowedDomainsInfo', 'Users can only join the team if their email matches a specific domain (e.g. "vueteams.com") or list of comma-separated domains (e.g. "corp.vueteams.com, vueteams.com").')}</span>;
+            const allowedDomainsInfo = <span>{Utils.localizeMessage('general_tab.AllowedDomainsInfo', 'Users can only join the team if their email matches a specific domain (e.g. "NeoAi.com") or list of comma-separated domains (e.g. "corp.NeoAi.com, NeoAi.com").')}</span>;
 
             allowedDomainsSection = (
                 <SettingItemMax

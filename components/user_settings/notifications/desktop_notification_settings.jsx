@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -97,7 +97,7 @@ export default class DesktopNotificationSettings extends React.Component {
                         <div className='margin-top x3'>
                             <FormattedMessage
                                 id='user.settings.notifications.sounds_info'
-                                defaultMessage='Notification sounds are available on IE11, Safari, Chrome and Vue Desktop Apps.'
+                                defaultMessage='Notification sounds are available on IE11, Safari, Chrome and Neo Ai Desktop Apps.'
                             />
                         </div>
                     </fieldset>
@@ -186,7 +186,7 @@ export default class DesktopNotificationSettings extends React.Component {
                     <div className='margin-top x3'>
                         <FormattedMessage
                             id='user.settings.notifications.info'
-                            defaultMessage='Desktop notifications are available on Edge, Firefox, Safari, Chrome and Vue Desktop Apps.'
+                            defaultMessage='Desktop notifications are available on Edge, Firefox, Safari, Chrome and Neo Ai Desktop Apps.'
                         />
                     </div>
                 </fieldset>

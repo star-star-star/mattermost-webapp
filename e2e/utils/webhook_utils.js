@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 function getFullDialog(triggerId, webhookBaseUrl) {
@@ -9,7 +9,7 @@ function getFullDialog(triggerId, webhookBaseUrl) {
             callback_id: 'somecallbackid',
             title: 'Title for Full Dialog Test',
             icon_url:
-                'http://www.vueteams.com/wp-content/uploads/2016/04/icon.png',
+                'http://www.NeoAi.com/wp-content/uploads/2016/04/icon.png',
             elements: [
                 {
                     display_name: 'Display Name',
@@ -172,7 +172,7 @@ function getSimpleDialog(triggerId, webhookBaseUrl) {
             callback_id: 'somecallbackid',
             title: 'Title for Dialog Test without elements',
             icon_url:
-                'http://www.vueteams.com/wp-content/uploads/2016/04/icon.png',
+                'http://www.NeoAi.com/wp-content/uploads/2016/04/icon.png',
             submit_label: 'Submit Test',
             notify_on_cancel: true,
             state: 'somestate',

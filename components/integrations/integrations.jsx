@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -147,7 +147,7 @@ export default class Integrations extends React.Component {
                         description={
                             <FormattedMessage
                                 id='integrations.oauthApps.description'
-                                defaultMessage='Auth 2.0 allows external applications to make authorized requests to the Vue API'
+                                defaultMessage='Auth 2.0 allows external applications to make authorized requests to the Neo Ai API'
                             />
                         }
                         link={'/' + this.props.team.name + '/integrations/oauth2-apps'}
@@ -172,7 +172,7 @@ export default class Integrations extends React.Component {
                     description={
                         <FormattedMessage
                             id='bots.manage.description'
-                            defaultMessage='Use bot accounts to integrate with Vue through plugins or the API'
+                            defaultMessage='Use bot accounts to integrate with Neo Ai through plugins or the API'
                         />
                     }
                     link={'/' + this.props.team.name + '/integrations/bots'}
@@ -193,13 +193,13 @@ export default class Integrations extends React.Component {
                 <div className='backstage-list__help'>
                     <FormattedMessage
                         id='integrations.help'
-                        defaultMessage='Visit the {appDirectory} to find self-hosted, third-party apps and integrations for Vue.'
+                        defaultMessage='Visit the {appDirectory} to find self-hosted, third-party apps and integrations for Neo Ai.'
                         values={{
                             appDirectory: (
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    href='https://about.vueteams.com/default-app-directory/'
+                                    href='https://about.NeoAi.com/default-app-directory/'
                                 >
                                     <FormattedMessage
                                         id='integrations.help.appDirectory'

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -61,9 +61,9 @@ describe('Login page', () => {
     it('should match elements, footer', () => {
         // * Check elements in the footer
         cy.get('#footer_section').should('be.visible');
-        cy.get('#company_name').should('contain', 'Vue');
+        cy.get('#company_name').should('contain', 'Neo Ai');
         cy.get('#copyright').should('contain', '© 2015-');
-        cy.get('#copyright').should('contain', 'Vue, Inc.');
+        cy.get('#copyright').should('contain', 'Neo Ai Inc.');
         cy.get('#about_link').should('contain', 'About');
         cy.get('#about_link').should('have.attr', 'href', config.SupportSettings.AboutLink);
         cy.get('#privacy_link').should('contain', 'Privacy');

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Vue Technology LLC All Rights Reserved.
+// Copyright (c) 2019-present Neo Ai Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -16,7 +16,7 @@ export default function ErrorTitle({type, title}) {
             errorTitle = (
                 <FormattedMessage
                     id='error.local_storage.title'
-                    defaultMessage='Cannot Load Vue'
+                    defaultMessage='Cannot Load Neo Ai'
                 />
             );
             break;
@@ -40,7 +40,7 @@ export default function ErrorTitle({type, title}) {
             errorTitle = (
                 <FormattedMessage
                     id='error.oauth_missing_code.title'
-                    defaultMessage='Vue needs your help'
+                    defaultMessage='Neo Ai needs your help'
                 />
             );
             break;
