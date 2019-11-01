@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import ProfilePicture from 'components/profile_picture';
-import Neo AiLogo from 'components/widgets/icons/mattermost_logo';
+import MattermostLogo from 'components/widgets/icons/mattermost_logo';
 
 import Constants, {UserStatuses} from 'utils/constants';
 import * as PostUtils from 'utils/post_utils';
@@ -88,7 +88,7 @@ export default class PostProfilePicture extends React.PureComponent {
         const fromWebhook = PostUtils.isFromWebhook(post);
 
         if (isSystemMessage && !compactDisplay && !fromWebhook && !isBot) {
-            return <Neo AiLogo className='icon'/>;
+            return <MattermostLogo className='icon'/>;
         }
         const fromAutoResponder = PostUtils.fromAutoResponder(post);
 
