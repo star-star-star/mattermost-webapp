@@ -104,7 +104,7 @@ ol {
     font-weight: 300;
     src: url('../fonts/lineto-circular-book-s.eot'); /* IE9 Compat Modes */
     src: url('../fonts/lineto-circular-book-s.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('../fonts/lineto-circular-book-s.otf') format('opentype'), /* Open Type Font */
+    //   url('../fonts/lineto-circular-book-s.otf') format('opentype'), /* Open Type Font */
       url('../fonts/lineto-circular-book-s.svg') format('svg'), /* Legacy iOS */
       url('../fonts/lineto-circular-book-s.ttf') format('truetype'), /* Safari, Android, iOS */
       url('../fonts/lineto-circular-book-s.woff') format('woff'), /* Modern Browsers */
@@ -117,7 +117,33 @@ ol {
     font-weight: 300;
     src: url('../fonts/lineto-circular-bookitalic-s.eot'); /* IE9 Compat Modes */
     src: url('../fonts/lineto-circular-bookitalic-s.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('../fonts/lineto-circular-bookitalic-s.otf') format('opentype'), /* Open Type Font */
+    //   url('../fonts/lineto-circular-bookitalic-s.otf') format('opentype'), /* Open Type Font */
+      url('../fonts/lineto-circular-bookitalic-s.svg') format('svg'), /* Legacy iOS */
+      url('../fonts/lineto-circular-bookitalic-s.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/lineto-circular-bookitalic-s.woff') format('woff'), /* Modern Browsers */
+      url('../fonts/lineto-circular-bookitalic-s.woff2') format('woff2'); /* Modern Browsers */
+  }
+
+  @font-face {
+    font-family: 'Circular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lineto-circular-book-s.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lineto-circular-book-s.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    //   url('../fonts/lineto-circular-book-s.otf') format('opentype'), /* Open Type Font */
+      url('../fonts/lineto-circular-book-s.svg') format('svg'), /* Legacy iOS */
+      url('../fonts/lineto-circular-book-s.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/lineto-circular-book-s.woff') format('woff'), /* Modern Browsers */
+      url('../fonts/lineto-circular-book-s.woff2') format('woff2'); /* Modern Browsers */
+  }
+  
+  @font-face {
+    font-family: 'Circular';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/lineto-circular-bookitalic-s.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lineto-circular-bookitalic-s.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    //   url('../fonts/lineto-circular-bookitalic-s.otf') format('opentype'), /* Open Type Font */
       url('../fonts/lineto-circular-bookitalic-s.svg') format('svg'), /* Legacy iOS */
       url('../fonts/lineto-circular-bookitalic-s.ttf') format('truetype'), /* Safari, Android, iOS */
       url('../fonts/lineto-circular-bookitalic-s.woff') format('woff'), /* Modern Browsers */
@@ -128,10 +154,10 @@ ol {
   @font-face {
     font-family: 'Circular';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     src: url('../fonts/lineto-circular-medium-s.eot'); /* IE9 Compat Modes */
     src: url('../fonts/lineto-circular-medium-s.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('../fonts/lineto-circular-medium-s.otf') format('opentype'), /* Open Type Font */
+    //   url('../fonts/lineto-circular-medium-s.otf') format('opentype'), /* Open Type Font */
       url('../fonts/lineto-circular-medium-s.svg') format('svg'), /* Legacy iOS */
       url('../fonts/lineto-circular-medium-s.ttf') format('truetype'), /* Safari, Android, iOS */
       url('../fonts/lineto-circular-medium-s.woff') format('woff'), /* Modern Browsers */
@@ -142,43 +168,46 @@ ol {
   @font-face {
     font-family: 'Circular';
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
     src: url('../fonts/lineto-circular-mediumitalic-s.eot'); /* IE9 Compat Modes */
     src: url('../fonts/lineto-circular-mediumitalic-s.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('../fonts/lineto-circular-mediumitalic-s.otf') format('opentype'), /* Open Type Font */
+    //   url('../fonts/lineto-circular-mediumitalic-s.otf') format('opentype'), /* Open Type Font */
       url('../fonts/lineto-circular-mediumitalic-s.svg') format('svg'), /* Legacy iOS */
       url('../fonts/lineto-circular-mediumitalic-s.ttf') format('truetype'), /* Safari, Android, iOS */
       url('../fonts/lineto-circular-mediumitalic-s.woff') format('woff'), /* Modern Browsers */
       url('../fonts/lineto-circular-mediumitalic-s.woff2') format('woff2'); /* Modern Browsers */
   }
   
+// Too Bold 1
+
+//   @font-face {
+//     font-family: 'Circular';
+//     font-style: normal;
+//     font-weight: 600;
+//     src: url('../fonts/lineto-circular-black.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/lineto-circular-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//     //   url('../fonts/lineto-circular-black.otf') format('opentype'), /* Open Type Font */
+//       url('../fonts/lineto-circular-black.svg') format('svg'), /* Legacy iOS */
+//       url('../fonts/lineto-circular-black.ttf') format('truetype'), /* Safari, Android, iOS */
+//       url('../fonts/lineto-circular-black.woff') format('woff'), /* Modern Browsers */
+//       url('../fonts/lineto-circular-black.woff2') format('woff2'); /* Modern Browsers */
+//   }
   
-  @font-face {
-    font-family: 'Circular';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/lineto-circular-black.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/lineto-circular-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('../fonts/lineto-circular-black.otf') format('opentype'), /* Open Type Font */
-      url('../fonts/lineto-circular-black.svg') format('svg'), /* Legacy iOS */
-      url('../fonts/lineto-circular-black.ttf') format('truetype'), /* Safari, Android, iOS */
-      url('../fonts/lineto-circular-black.woff') format('woff'), /* Modern Browsers */
-      url('../fonts/lineto-circular-black.woff2') format('woff2'); /* Modern Browsers */
-  }
   
-  
-  @font-face {
-    font-family: 'Circular';
-    font-style: italic;
-    font-weight: 600;
-    src: url('../fonts/lineto-circular-blackitalic.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/lineto-circular-blackitalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('../fonts/lineto-circular-blackitalic.otf') format('opentype'), /* Open Type Font */
-      url('../fonts/lineto-circular-blackitalic.svg') format('svg'), /* Legacy iOS */
-      url('../fonts/lineto-circular-blackitalic.ttf') format('truetype'), /* Safari, Android, iOS */
-      url('../fonts/lineto-circular-blackitalic.woff') format('woff'), /* Modern Browsers */
-      url('../fonts/lineto-circular-blackitalic.woff2') format('woff2'); /* Modern Browsers */
-  }
+// Too Bold 2
+
+//   @font-face {
+//     font-family: 'Circular';
+//     font-style: italic;
+//     font-weight: 600;
+//     src: url('../fonts/lineto-circular-blackitalic.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/lineto-circular-blackitalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//     //   url('../fonts/lineto-circular-blackitalic.otf') format('opentype'), /* Open Type Font */
+//       url('../fonts/lineto-circular-blackitalic.svg') format('svg'), /* Legacy iOS */
+//       url('../fonts/lineto-circular-blackitalic.ttf') format('truetype'), /* Safari, Android, iOS */
+//       url('../fonts/lineto-circular-blackitalic.woff') format('woff'), /* Modern Browsers */
+//       url('../fonts/lineto-circular-blackitalic.woff2') format('woff2'); /* Modern Browsers */
+//   }
   
   
 
